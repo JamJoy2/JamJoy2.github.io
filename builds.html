@@ -3,29 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" type="image/svg+xml"href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23007BFF' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M14 4.577L8 1 2 4.577v6.846L8 15l6-3.577z'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%234F8EF7' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M14 4.577L8 1 2 4.577v6.846L8 15l6-3.577z'/%3E%3C/svg%3E">
   <meta name="description" content="Browse current PC build inventory. Gaming rigs, workstations, and custom builds available for pickup in Docklands, Melbourne.">
-  <title>Builds — James | Builds </title>
+  <title>Builds — James | Builds</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
+
+  <style>
+    /* Sold section divider */
+    .sold-section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin: 64px 0 32px;
+    }
+
+    .sold-section-header .label {
+      font-size: var(--text-xs);
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .sold-section-header .line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .sold-count-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: var(--text-xs);
+      color: var(--text-muted);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3px 10px;
+      white-space: nowrap;
+    }
+  </style>
 </head>
 <body>
 
   <!-- NAVIGATION -->
   <nav class="navbar navbar-expand-lg" id="mainNav">
     <div class="container">
-       <a class="navbar-brand" href="index.html">JAMES<span> <i class="bi bi-hexagon-fill"></i> </span> BUILDS <span class="blinking-cursor"></span></a> 
+      <a class="navbar-brand" href="index.html">JAMES<span> <i class="bi bi-hexagon-fill"></i> </span>BUILDS <span class="blinking-cursor"></span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="builds.html">Builds</a></li>
+          <li class="nav-item"><a class="nav-link active" href="builds.html">Builds</a></li>
           <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Build Log</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
         <a href="contact.html" class="btn-nav-cta nav-link">Get a Quote</a>
@@ -59,24 +99,36 @@
         <button class="filter-btn" data-filter="custom">Custom</button>
         <button class="filter-btn" data-filter="available">Available</button>
         <button class="filter-btn" data-filter="sale">On Sale</button>
+        <button class="filter-btn" data-filter="sold">Sold</button>
       </div>
 
-      <!-- ↓ Cards are now generated automatically from data/builds.json by builds.js -->
+      <!-- Active builds grid — populated by builds.js -->
       <div class="row g-4 gap-row" id="buildsGrid">
-
-        <!-- Loading spinner — shown while JSON is being fetched -->
         <div class="col-12 text-center py-5" id="loadingState">
           <div class="spinner-border" style="color:var(--accent);" role="status"></div>
           <p class="mt-3" style="color:var(--text-muted);">Loading builds...</p>
         </div>
-
-        <!-- Error state — shown if builds.json fails to load -->
         <div class="col-12 text-center py-5 d-none" id="errorState">
           <i class="bi bi-exclamation-triangle" style="font-size:3rem;color:var(--text-muted);display:block;margin-bottom:16px;"></i>
           <p style="color:var(--text-muted);">Couldn't load builds. Please try refreshing.</p>
         </div>
+      </div>
 
-      </div><!-- /buildsGrid -->
+      <!-- Sold builds section — hidden until JS populates it -->
+      <div id="soldSection" style="display:none;">
+        <div class="sold-section-header animate-fade-up">
+          <div class="line"></div>
+          <span class="label">
+            Previously sold
+          </span>
+          <span class="sold-count-badge" id="soldCountBadge">0 builds</span>
+          <div class="line"></div>
+        </div>
+        <p class="animate-fade-up" style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:32px;max-width:520px;">
+          These builds have already found a home. If you'd like something similar, get in touch and we'll spec it out.
+        </p>
+        <div class="row g-4 gap-row" id="soldGrid"></div>
+      </div>
 
       <!-- Custom Build CTA -->
       <div class="mt-5 pt-3 animate-fade-up">
@@ -95,7 +147,7 @@
     <div class="container">
       <div class="row g-4">
         <div class="col-lg-4 col-md-6">
-           <a class="navbar-brand" href="index.html">JAMES<span> <i class="bi bi-hexagon-fill"></i> </span> BUILDS <span class="blinking-cursor"></span></a> 
+          <a class="navbar-brand" href="index.html">JAMES<span> <i class="bi bi-hexagon-fill"></i> </span>BUILDS <span class="blinking-cursor"></span></a>
           <p class="footer-tagline">Custom PCs, repairs, and upgrades. Built properly in Docklands, Melbourne.</p>
         </div>
         <div class="col-lg-2 col-md-6">
@@ -104,6 +156,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="builds.html">Builds</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="blog.html">Build Log</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
@@ -125,7 +178,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span class="footer-copy">© 2025 James' Computer Repair. All rights reserved.</span>
+        <span class="footer-copy">© 2026 James' Computer Repair. All rights reserved.</span>
         <span class="footer-abn">ABN: XX XXX XXX XXX</span>
       </div>
     </div>
@@ -133,7 +186,83 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="main.js"></script>
-  <!-- builds.js reads data/builds.json and generates all the cards above -->
   <script src="builds.js"></script>
+
+  <script>
+    /* ── Patch initBuildsPage to also populate the sold section ── */
+    const _origInit = initBuildsPage;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Override happens after builds.js DOMContentLoaded runs
+      // So we hook into the fetch instead via a post-render check
+    });
+
+    /* We patch buildMiniCard calls by watching the grid after render */
+    const soldGridObserver = new MutationObserver(() => {
+      const allCols = document.querySelectorAll('#buildsGrid .build-col');
+      if (allCols.length === 0) return;
+
+      const soldCols = [...allCols].filter(col => {
+        const card = col.querySelector('[data-category]');
+        return card && card.dataset.category.includes('sold');
+      });
+
+      const activeCols = [...allCols].filter(col => {
+        const card = col.querySelector('[data-category]');
+        return card && !card.dataset.category.includes('sold');
+      });
+
+      if (soldCols.length > 0) {
+        const soldGrid = document.getElementById('soldGrid');
+        const soldSection = document.getElementById('soldSection');
+        const soldCountBadge = document.getElementById('soldCountBadge');
+
+        // Move sold cards into the sold section
+        soldCols.forEach(col => soldGrid.appendChild(col));
+
+        // Update count badge
+        soldCountBadge.textContent = `${soldCols.length} build${soldCols.length !== 1 ? 's' : ''}`;
+
+        // Show the section
+        soldSection.style.display = 'block';
+
+        // Re-observe new elements for fade-up animation
+        document.querySelectorAll('#soldGrid .animate-fade-up').forEach(el => {
+          el.classList.remove('visible');
+          buildObserver.observe(el);
+        });
+      }
+
+      soldGridObserver.disconnect();
+    });
+
+    soldGridObserver.observe(document.getElementById('buildsGrid'), { childList: true });
+
+    /* ── Sold filter button — toggles both grids ── */
+    document.addEventListener('click', (e) => {
+      if (!e.target.matches('.filter-btn')) return;
+
+      const filter = e.target.dataset.filter;
+      const soldSection = document.getElementById('soldSection');
+
+      if (filter === 'sold') {
+        // Show only sold section, hide active grid
+        document.getElementById('buildsGrid').style.display = 'none';
+        if (soldSection) soldSection.style.display = 'block';
+        // Make sold cards visible
+        document.querySelectorAll('#soldGrid .build-col').forEach(col => col.style.display = '');
+      } else if (filter === 'all') {
+        // Show everything
+        document.getElementById('buildsGrid').style.display = '';
+        if (soldSection) soldSection.style.display = soldSection.querySelector('.build-col') ? 'block' : 'none';
+        document.querySelectorAll('#buildsGrid .build-col, #soldGrid .build-col').forEach(col => col.style.display = '');
+      } else {
+        // Standard filter — show active grid, hide sold section
+        document.getElementById('buildsGrid').style.display = '';
+        if (soldSection) soldSection.style.display = 'none';
+      }
+    });
+  </script>
+
 </body>
 </html>
