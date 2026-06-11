@@ -4,6 +4,7 @@
 - connect form to actual inbox -- try not to get hacked as all code is public :O
 - add to service / pricing / add ABN and details 
 - add images of builds, list current builds 
+- benchmark results to include games and targer resolution for gaming in performance results 
 ---
 AIBS: 
 **Contact form** — replace `YOUR_FORM_ID` in `contact.html` with your Formspree ID:
