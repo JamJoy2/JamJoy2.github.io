@@ -1,6 +1,6 @@
 /* =========================================
    PC BUILD CO. — STYLE.CSS
-   Version 1.0
+   Version 1.1
    ========================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -98,14 +98,20 @@ h1, h2, h3, h4, h5 {
    NAVIGATION
    ========================================= */
 .navbar {
+  /*
   background: transparent;
   border-bottom: 1px solid transparent;
   padding: 18px 0;
   transition: background 0.3s, border-color 0.3s, padding 0.3s;
-  position: fixed;
+  */
+  transition: background 0.3s, border-color 0.3s, padding 0.3s;
+   background: rgba(22, 22, 23, 0.97);
+  border-bottom-color: var(--border);
+  padding: 18px 0;
   width: 100%;
   top: 0;
   z-index: 1000;
+  position: fixed
 }
 
 .navbar.scrolled {
@@ -783,6 +789,19 @@ h1, h2, h3, h4, h5 {
   font-size: 0.85rem;
   margin-bottom: 12px;
   letter-spacing: 2px;
+}
+.testimonial-stars-left {
+  color: #fbbf24;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+  align-items: right;
+}
+
+.flex-container {
+  display: flex;         /* Places children side-by-side */
+  gap: 10px;             /* Adds customizable space between the text blocks */
+  align-items: center;   /* Keeps text aligned vertically along the center */
 }
 
 .testimonial-text {
