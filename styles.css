@@ -1244,3 +1244,73 @@ textarea.form-control-custom {
 [data-star^="4.8"]::after{width:96%}
 [data-star^="4.9"]::after{width:98%}
 [data-star^="5"]::after{width:100%}
+
+/* Full-screen background blur */
+#construction-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 20, 0.85); /* Dark translucent layer */
+  backdrop-filter: blur(12px);         /* Blurs everything underneath */
+  -webkit-backdrop-filter: blur(12px); /* Safari support */
+  z-index: 99999;                      /* Forces it to stay on top of everything */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* The warning box in the middle */
+.overlay-content {
+  background: #1e1e24;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 500px;
+  border: 2px solid #ff4a4a;           /* Sharp red border line */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+/* Bright red notification badge */
+.warning-badge {
+  background: #ff4a4a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.overlay-content h1 {
+  margin: 20px 0 15px 0;
+  font-size: 1.8rem;
+}
+
+.overlay-content p {
+  color: #b3b3b3;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* Interactable dismiss button */
+.overlay-content button {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.overlay-content button:hover {
+  background: #ffffff;
+  color: #1e1e24;
+}
