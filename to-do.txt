@@ -1,4 +1,74 @@
+---
+** to do: **
 - Bootstrap tags for sold builds 
 - work out a simple method to add builds to site 
 - connect form to actual inbox -- try not to get hacked as all code is public :O
 - add to service / pricing / add ABN and details 
+---
+AIBS: 
+**Contact form** — replace `YOUR_FORM_ID` in `contact.html` with your Formspree ID:
+   - Sign up at https://formspree.io (free)
+   - Create a form and get your ID (looks like `xpwzgbkv`)
+   - Find and replace `YOUR_FORM_ID` in `contact.html`
+
+3. **ABN** — replace `XX XXX XXX XXX` in all four HTML files with your actual ABN.
+
+4. **Email** — replace `james@pcbuild.co` with your actual email address.
+
+5. **Social links** — update Facebook Marketplace and Instagram URLs in `index.html`, `builds.html`, and `contact.html`.
+
+---
+
+## Adding new builds
+
+Open `builds.html` and duplicate one of the `<div class="col-lg-4 col-md-6 build-col">` blocks.
+
+Update:
+- `data-category` on the inner card (options: `gaming`, `workstation`, `custom`, `available`, `sale`, `sold`)
+- Tags (`.tag-gaming`, `.tag-available`, etc.)
+- Title, specs, and price
+- Link href (Facebook Marketplace listing, or `contact.html`)
+
+---
+
+## Adding photos
+
+Drop WebP images (max 200KB each) into `assets/img/builds/`.
+
+Replace the placeholder div:
+```html
+<div class="build-card-image-placeholder" style="height:220px;">
+  <i class="bi bi-pc-display-horizontal" ...></i>
+</div>
+```
+With:
+```html
+<div class="build-card-image">
+  <img src="assets/img/builds/your-photo.webp" alt="Build name" loading="lazy">
+</div>
+```
+
+Use https://squoosh.app to compress images before adding.
+
+---
+
+## Hosting on GitHub Pages
+
+1. Create a new public GitHub repo
+2. Push all files to the `main` branch
+3. Go to Settings → Pages → Source: `main` / `root`
+4. Site goes live at `https://yourusername.github.io/repo-name`
+
+For a custom domain, add a `CNAME` file with your domain and configure DNS at your registrar.
+
+---
+
+## Stack
+
+- HTML5, CSS3 (custom, no preprocessor)
+- Bootstrap 5.3
+- Bootstrap Icons 1.11
+- Google Fonts (Space Grotesk, Inter, JetBrains Mono)
+- Vanilla JS only
+- Formspree for contact form
+- GitHub Pages compatible (no server needed)
