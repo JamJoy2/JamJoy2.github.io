@@ -1,0 +1,247 @@
+[
+  {
+    "id": "marathon",
+    "name": "Marathon Build",
+    "tagline": "Custom showcase system. Built to impress and perform.",
+    "status": "Available",
+    "price": 3499,
+    "category": ["custom", "highend"],
+    "featured": true,
+    "featuredImage": "images/builds/marathon-main.jpg",
+    "gallery": [
+      "images/builds/marathon-main.jpg",
+      "images/builds/marathon-side.jpg",
+      "images/builds/marathon-cables.jpg",
+      "images/builds/marathon-rgb.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 9 7900X (12c/24t)",
+      "Motherboard": "ASUS ROG X870-E Master",
+      "GPU": "RTX 5070 Ti 16GB",
+      "RAM": "64GB DDR5 6000MHz G.Skill Trident Z5",
+      "Storage": "2TB Samsung 990 Pro NVMe",
+      "Cooling": "360mm Custom AIO",
+      "PSU": "Corsair RM1000x 1000W Gold",
+      "Case": "Lian Li O11 Dynamic EVO",
+      "OS": "Windows 11 Pro"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "28,400",
+      "Cinebench R23 (Single)": "1,960",
+      "3DMark Time Spy": "22,100",
+      "FurMark (1440p)": "Stable — 72°C GPU max"
+    },
+    "description": "The Marathon is James' personal showcase build — everything dialled in, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
+    "highlights": [
+      "Custom sleeved cable extensions (white/black)",
+      "3D printed custom fan grills",
+      "Full stress tested — FurMark + Cinebench",
+      "64GB DDR5 running at rated 6000MHz XMP",
+      "WiFi 6E + Bluetooth 5.3 onboard",
+      "Clean cable routing, zero loose cables"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "evolv-3080ti",
+    "name": "Phanteks Evolv X — 3080 Ti",
+    "tagline": "Freshly built. Fully tested. Ready for 1440p.",
+    "status": "Available",
+    "price": 1350,
+    "category": ["gaming"],
+    "featured": true,
+    "featuredImage": "images/builds/evolv-main.jpg",
+    "gallery": [
+      "images/builds/evolv-main.jpg",
+      "images/builds/evolv-inside.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel i9-9900K (8c/16t, unlocked)",
+      "Motherboard": "ASRock Z390 Phantom Gaming",
+      "GPU": "RTX 3080 Ti 12GB ASUS TUF OC",
+      "RAM": "32GB DDR4 3600MHz G.Skill Trident Z",
+      "Storage": "500GB WD Blue SSD (90% health)",
+      "Cooling": "Corsair 240mm RGB AIO",
+      "PSU": "Corsair RM850i 850W Gold",
+      "Case": "Phanteks Enthoo Evolv X",
+      "Extras": "WiFi + Bluetooth card, braided cable extensions, custom 3D printed fan grills"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "~13,800",
+      "3DMark Time Spy": "~16,200",
+      "FurMark (1080p)": "Stable — 95°C CPU under full load (normal for 9900K unlocked)"
+    },
+    "description": "Freshly built and fully tested. Clean, professionally assembled system with strong airflow and excellent 1440p gaming performance. The i9-9900K runs at full unlocked power limits — great performance, but hits ~95°C under sustained 100% CPU load. Dropping PL1 to 165W keeps it under 90°C with minimal performance loss. Fresh thermal paste applied before sale. Happy to walk you through it on pickup.",
+    "highlights": [
+      "3D printed custom fan grills",
+      "Braided cable extensions",
+      "RGB lighting throughout",
+      "Fresh thermal paste before sale",
+      "WiFi + Bluetooth included",
+      "Phanteks Enthoo Evolv X — premium full-tower case"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "o11-hardline",
+    "name": "O11 Hardline Loop",
+    "tagline": "Full custom hardline water cooling. One of a kind.",
+    "status": "Available",
+    "price": 2899,
+    "category": ["custom", "gaming"],
+    "featured": true,
+    "featuredImage": "images/builds/o11-main.jpg",
+    "gallery": [
+      "images/builds/o11-main.jpg",
+      "images/builds/o11-loop.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel i9-12900K (16c/24t)",
+      "Motherboard": "ASUS ROG Maximus Z690 Hero",
+      "GPU": "RTX 4080 Super 16GB (waterblocked)",
+      "RAM": "32GB DDR5 5600MHz Corsair Dominator",
+      "Storage": "1TB + 2TB WD Black NVMe",
+      "Cooling": "Full custom hardline loop — 360mm + 240mm radiators",
+      "PSU": "Seasonic Prime TX-1000 1000W Titanium",
+      "Case": "Lian Li O11 Dynamic XL"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "~26,000",
+      "3DMark Time Spy": "~20,400",
+      "GPU Temp (load)": "~55°C (waterblock)",
+      "CPU Temp (load)": "~65°C"
+    },
+    "description": "Full custom hardline water loop in a Lian Li O11 Dynamic XL. Waterblocked GPU, distro plate, rigid PETG tubing throughout. This is a serious build for someone who wants the best thermals, the lowest noise floor, and a showpiece rig. Temps are exceptional — GPU sits around 55°C under full load.",
+    "highlights": [
+      "Waterblocked RTX 4080 Super",
+      "Custom rigid PETG hardline tubing",
+      "Distro plate — no mess of soft tubes",
+      "360mm + 240mm radiator setup",
+      "GPU load temps ~55°C",
+      "Seasonic Titanium PSU — top tier efficiency"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "budget-1080p",
+    "name": "Budget 1080p Beast",
+    "tagline": "Everything you need. Nothing you don't.",
+    "status": "Available",
+    "price": 949,
+    "originalPrice": 1099,
+    "category": ["gaming", "sale"],
+    "featured": false,
+    "featuredImage": "images/builds/budget-main.jpg",
+    "gallery": [
+      "images/builds/budget-main.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel i5-12400F (6c/12t)",
+      "Motherboard": "MSI Pro B660M-A",
+      "GPU": "RTX 3070 8GB",
+      "RAM": "16GB DDR4 3600MHz",
+      "Storage": "500GB NVMe SSD",
+      "Cooling": "DeepCool AK400 air cooler",
+      "PSU": "Corsair CV650 650W Bronze",
+      "Case": "Fractal Design Focus 2"
+    },
+    "benchmarks": {
+      "3DMark Time Spy": "~12,400",
+      "FurMark (1080p)": "Stable — 68°C GPU max",
+      "Average FPS (1080p Ultra)": "100+ fps in most titles"
+    },
+    "description": "Clean, compact mid-range build that absolutely maxes out 1080p and handles 1440p high in most titles. No RGB fluff — just solid parts that work. Great first PC or secondary rig. Everything tested and confirmed stable.",
+    "highlights": [
+      "1080p Ultra — handles everything",
+      "Quiet DeepCool air cooler",
+      "Compact Fractal Design case",
+      "Confirmed stable — FurMark passed",
+      "Clean cable management"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Make an Offer"
+    }
+  },
+  {
+    "id": "workstation-5950x",
+    "name": "Render & Edit Workstation",
+    "tagline": "128GB RAM. 16 cores. No compromises.",
+    "status": "Available",
+    "price": 3799,
+    "category": ["workstation"],
+    "featured": false,
+    "featuredImage": "images/builds/workstation-main.jpg",
+    "gallery": [
+      "images/builds/workstation-main.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 9 5950X (16c/32t)",
+      "Motherboard": "ASUS ProArt X570-Creator",
+      "GPU": "RTX 3090 24GB",
+      "RAM": "128GB DDR4 3200MHz ECC",
+      "Storage": "2TB NVMe SSD + 4TB HDD",
+      "Cooling": "Noctua NH-D15 (silent dual tower)",
+      "PSU": "be quiet! Dark Power Pro 1000W Platinum",
+      "Case": "Fractal Design Define 7 XL"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "~26,500",
+      "Blender BMW Render": "~1m 40s",
+      "DaVinci Resolve 4K Export": "Smooth realtime playback",
+      "VRAM (GPU)": "24GB — handles large VRAM workloads"
+    },
+    "description": "Purpose-built for video editing, 3D rendering, and creative workloads. 128GB ECC RAM, 16 cores, and a 24GB GPU make this machine laugh at anything you throw at it. Noctua cooling keeps it whisper quiet under load. Built for professionals.",
+    "highlights": [
+      "128GB ECC RAM — massive headroom",
+      "RTX 3090 24GB — serious VRAM",
+      "Noctua NH-D15 — near silent",
+      "Fractal Define 7 XL — acoustically dampened",
+      "ECC memory for data integrity",
+      "16 cores / 32 threads"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Request More Information"
+    }
+  },
+  {
+    "id": "ablin-7900xtx",
+    "name": "Ablin Build — 7900 XTX",
+    "tagline": "24GB VRAM. Sold and delivered.",
+    "status": "Sold",
+    "price": 2799,
+    "category": ["gaming"],
+    "featured": false,
+    "featuredImage": "images/builds/ablin-main.jpg",
+    "gallery": [
+      "images/builds/ablin-main.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel i9-13900 (24c)",
+      "GPU": "RX 7900 XTX 24GB",
+      "RAM": "32GB DDR5 5600MHz",
+      "Storage": "2TB NVMe SSD"
+    },
+    "benchmarks": {},
+    "description": "Sold. This build went to a great home. Check current inventory for available builds.",
+    "highlights": [
+      "Intel i9-13900 — 24 cores",
+      "RX 7900 XTX — AMD flagship GPU",
+      "32GB DDR5"
+    ],
+    "cta": {
+      "primary": "See Available Builds",
+      "secondary": "Request a Similar Build"
+    }
+  }
+]
