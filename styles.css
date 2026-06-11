@@ -732,9 +732,6 @@ h1, h2, h3, h4, h5 {
   line-height: 1.6;
 }
 
-/* =========================================
-   TRUST BAR / MARQUEE
-   ========================================= */
 .trust-bar {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -746,8 +743,11 @@ h1, h2, h3, h4, h5 {
 .trust-bar-inner {
   display: flex;
   gap: 48px;
-  animation: marquee 24s linear infinite;
   white-space: nowrap;
+  width: max-content;
+
+  /* Desktop speed */
+  animation: marquee 24s linear infinite;
 }
 
 .trust-bar-inner:hover {
@@ -755,8 +755,12 @@ h1, h2, h3, h4, h5 {
 }
 
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .trust-item {
@@ -772,6 +776,22 @@ h1, h2, h3, h4, h5 {
 .trust-item i {
   color: var(--accent);
   font-size: 1rem;
+}
+
+/* Bootstrap mobile breakpoint */
+@media (max-width: 767.98px) {
+  .trust-bar-inner {
+    /* Much faster on phones */
+    animation-duration: 10s;
+  }
+}
+.trust-bar-inner {
+    animation: marquee 24s linear infinite;
+}
+@media (max-width: 767.98px) {
+    .trust-bar-inner {
+        animation-duration: 10s;
+    }
 }
 
 /* =========================================
