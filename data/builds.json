@@ -223,16 +223,22 @@
     }
   },
   {
-    "id": "ablin-7900xtx",
-    "name": "Ablin Build — 7900 XTX",
-    "tagline": "24GB VRAM. Sold and delivered.",
+    "id": "7900xtx-workstation",
+    "name": "i9 7900xtx workstation",
+    "tagline": "24GB VRAM 64gb ddr5 Sold and delivered.",
     "status": "Sold",
-    "price": 2799,
-    "category": ["gaming"],
+    "price": 2699,
+    "category": ["workstation"],
     "featured": false,
-    "featuredImage": "images/builds/ablin-main.jpg",
+    "featuredImage": "images/builds/7900xtx/7900xtx-main.jpg",
     "gallery": [
-      "images/builds/ablin-main.jpg"
+      "images/builds/7900xtx/7900xtx-main.jpg",
+      "images/builds/7900xtx/2.jpg",
+      "images/builds/7900xtx/3.jpg",
+      "images/builds/7900xtx/4.jpg",
+      "images/builds/7900xtx/5.jpg",
+      "images/builds/7900xtx/6.jpg"
+      
     ],
     "specs": {
       "CPU": "Intel i9-13900 (24c)",

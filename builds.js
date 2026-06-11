@@ -83,8 +83,11 @@ function buildMiniCard(build) {
     .join('');
 
   // CTA — sold builds link back to builds page, others to their build page
-  const ctaHref = build.status === 'Sold' ? 'builds.html' : `build.html?id=${build.id}`;
-  const ctaText = build.status === 'Sold' ? 'See Available Builds' : 'View Build';
+  const ctaHref = `build.html?id=${build.id}`;
+
+  const ctaText = build.status === 'Sold'
+    ? 'View Sold Build'
+    : 'View Sold Buil';
 
   // Opacity for sold
   const cardStyle = build.status === 'Sold' ? 'style="opacity:0.6;"' : '';
@@ -232,11 +235,19 @@ async function initBuildPage() {
     }
 
     // ── Hero tags
-    const catTags = (build.category || [])
-      .map(c => `<span class="tag ${CATEGORY_CLASSES[c] || ''}">${c}</span>`)
-      .join('');
-    document.getElementById('heroTags').innerHTML = catTags;
+    // ── Hero tags
+  const catTags = (build.category || [])
+    .map(c => `<span class="tag ${CATEGORY_CLASSES[c] || ''}">${c}</span>`)
+    .join('');
 
+  const soldTag = build.status === 'Sold'
+    ? `<span class="tag tag-sold">SOLD</span>`
+    : '';
+
+  document.getElementById('heroTags').innerHTML = `
+    ${soldTag}
+    ${catTags}
+  `;
     // ── Build name + tagline
     document.getElementById('buildName').textContent = build.name;
     document.getElementById('buildTagline').textContent = build.tagline;
@@ -256,23 +267,40 @@ async function initBuildPage() {
     }).join('');
 
     // ── CTA buttons
-    const isSold = build.status === 'Sold';
-    if (isSold) {
-      document.getElementById('ctaButtons').innerHTML = `
-        <a href="builds.html" class="btn-primary-custom w-100 justify-content-center">
-          Browse Available Builds <i class="bi bi-arrow-right"></i>
-        </a>
-      `;
-    } else {
-      document.getElementById('ctaButtons').innerHTML = `
-        <a href="#enquiryForm" class="btn-primary-custom" onclick="scrollToForm(event)">
-          ${build.cta?.primary || 'Enquire About This Build'} <i class="bi bi-arrow-right"></i>
-        </a>
-        <a href="#enquiryForm" class="btn-ghost-custom" onclick="scrollToForm(event, '${build.cta?.secondary || 'Reserve This Build'}')">
-          ${build.cta?.secondary || 'Reserve This Build'}
-        </a>
-      `;
-    }
+  // ── CTA buttons
+const isSold = build.status === 'Sold';
+
+if (isSold) {
+  document.getElementById('ctaButtons').innerHTML = `
+    <div class="sold-notice mb-3">
+      <span class="tag tag-sold">SOLD</span>
+      <p style="margin-top:10px;color:var(--text-muted);">
+        This build has already been sold. If you would like something similar,
+        feel free to enquire below.
+      </p>
+    </div>
+
+    <a href="#enquiryForm"
+       class="btn-primary-custom w-100"
+       onclick="scrollToForm(event)">
+      Request Similar Build
+      <i class="bi bi-arrow-right"></i>
+    </a>
+  `;
+} else {
+  document.getElementById('ctaButtons').innerHTML = `
+    <a href="#enquiryForm" class="btn-primary-custom" onclick="scrollToForm(event)">
+      ${build.cta?.primary || 'Enquire About This Build'}
+      <i class="bi bi-arrow-right"></i>
+    </a>
+
+    <a href="#enquiryForm"
+       class="btn-ghost-custom"
+       onclick="scrollToForm(event, '${build.cta?.secondary || 'Reserve This Build'}')">
+      ${build.cta?.secondary || 'Reserve This Build'}
+    </a>
+  `;
+}
 
     // ── Full specs table
     document.getElementById('specsTable').innerHTML = Object.entries(build.specs || {}).map(([k, v]) => {
@@ -315,15 +343,26 @@ async function initBuildPage() {
     document.getElementById('formBuildPrice').value = formatPrice(build.price);
 
     // ── Enquiry banner above form
-    document.getElementById('enquiryBanner').innerHTML = isSold ? '' : `
-      <div class="enquiry-build-banner">
-        <div>
-          <div style="font-size:var(--text-xs);color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Enquiring about</div>
-          <div style="font-weight:700;font-family:'Space Grotesk',sans-serif;">${build.name}</div>
-        </div>
-        <div style="font-family:'JetBrains Mono',monospace;font-size:var(--text-lg);color:var(--text-primary);">${formatPrice(build.price)}</div>
+   document.getElementById('enquiryBanner').innerHTML = `
+  <div class="enquiry-build-banner">
+    <div>
+      <div style="font-size:var(--text-xs);color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">
+        ${isSold ? 'Previously Sold Build' : 'Enquiring about'}
       </div>
-    `;
+
+      <div style="font-weight:700;font-family:'Space Grotesk',sans-serif;">
+        ${build.name}
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:10px;">
+      ${isSold ? '<span class="tag tag-sold">SOLD</span>' : ''}
+      <div style="font-family:\'JetBrains Mono\',monospace;font-size:var(--text-lg);color:var(--text-primary);">
+        ${formatPrice(build.price)}
+      </div>
+    </div>
+  </div>
+`;
 
     // ── Other builds (exclude current, exclude archived, max 3)
     const others = builds
@@ -394,4 +433,5 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.getElementById('buildContent')) {
     initBuildPage();
   }
+  
 });

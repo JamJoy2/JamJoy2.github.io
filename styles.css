@@ -376,9 +376,11 @@ h1, h2, h3, h4, h5 {
 .tag-gaming   { background: var(--accent-dim); color: var(--accent); border: 1px solid rgba(79,142,247,0.25); }
 .tag-workstation { background: rgba(139,92,246,0.15); color: #a78bfa; border: 1px solid rgba(139,92,246,0.25); }
 .tag-available { background: rgba(61,170,110,0.15); color: var(--success); border: 1px solid rgba(61,170,110,0.25); }
-.tag-sold     { background: rgba(107,107,114,0.15); color: var(--text-muted); border: 1px solid var(--border); }
+.tag-sold     {background: #dc2626;  color: white;  border: 1px solid #ef4444;  font-weight: 700;  text-transform: uppercase;  letter-spacing: 0.08em;}
 .tag-custom   { background: rgba(217,119,6,0.15); color: #fbbf24; border: 1px solid rgba(217,119,6,0.25); }
 .tag-highend  { background: rgba(236,72,153,0.12); color: #f472b6; border: 1px solid rgba(236,72,153,0.2); }
+
+  
 
 /* =========================================
    BUILD CARDS
