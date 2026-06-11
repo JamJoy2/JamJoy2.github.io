@@ -31,7 +31,7 @@
       "3DMark Time Spy": "22,100",
       "FurMark (1440p)": "Stable — 72°C GPU max"
     },
-    "description": "The Marathon is James' personal showcase build — everything dialled in, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
+    "description": "The Marathon is James' personal showcase build, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
     "highlights": [
       "Custom sleeved cable extensions (white/black)",
       "3D printed custom fan grills",
@@ -53,10 +53,18 @@
     "price": 1350,
     "category": ["gaming"],
     "featured": true,
-    "featuredImage": "images/builds/evolv-main.jpg",
+    "featuredImage": "images/builds/evolv/evolv-main.jpg",
     "gallery": [
-      "images/builds/evolv-main.jpg",
-      "images/builds/evolv-inside.jpg"
+      "images/builds/evolv/evolv-main.jpg",
+      "images/builds/evolv/evolv-2.jpg",
+      "images/builds/evolv/evolv-3.jpg",
+      "images/builds/evolv/evolv-4.jpg",
+      "images/builds/evolv/evolv-5.jpg",
+      "images/builds/evolv/evolv-6.jpg",
+      "images/builds/evolv/evolv-7.jpg",
+      "images/builds/evolv/evolv-8.jpg",
+      "images/builds/evolv/evolv-9.jpg",
+      "images/builds/evolv/evolv-10.jpg"
     ],
     "specs": {
       "CPU": "Intel i9-9900K (8c/16t, unlocked)",
