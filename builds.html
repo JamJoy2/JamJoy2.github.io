@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse current PC build inventory. Gaming rigs, workstations, and custom builds available for pickup in Docklands, Melbourne.">
+  <title>Builds — PC Build Co.</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar navbar-expand-lg" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">PC Build<span>.</span>Co</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="builds.html">Builds</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn-nav-cta nav-link">Get a Quote</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="container">
+      <div class="breadcrumb-custom">
+        <a href="index.html">Home</a>
+        <span class="sep">/</span>
+        <span>Builds</span>
+      </div>
+      <span class="section-eyebrow">Inventory</span>
+      <h1 class="page-hero-title">Current Builds</h1>
+      <p class="page-hero-sub">All systems are fully built, benchmarked, and available for pickup in Docklands.</p>
+    </div>
+  </div>
+
+  <!-- BUILDS GRID -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filter -->
+      <div class="builds-filter animate-fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="workstation">Workstation</button>
+        <button class="filter-btn" data-filter="custom">Custom</button>
+        <button class="filter-btn" data-filter="available">Available</button>
+        <button class="filter-btn" data-filter="sale">On Sale</button>
+      </div>
+
+      <div class="row g-4 gap-row" id="buildsGrid">
+
+        <!-- Card 1: Marathon Build -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="custom available highend">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-pc-display-horizontal" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-available">Available</span>
+                <span class="tag tag-highend">High-End</span>
+                <span class="tag tag-custom">Custom Build</span>
+              </div>
+              <div class="build-card-title">Marathon Build</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Ryzen 9 7900X (12c/24t)</li>
+                <li><i class="bi bi-gpu-card"></i> RTX 5070 Ti 16GB</li>
+                <li><i class="bi bi-memory"></i> 64GB DDR5 6000MHz</li>
+                <li><i class="bi bi-device-ssd"></i> 2TB NVMe SSD</li>
+                <li><i class="bi bi-motherboard"></i> X870-E Master</li>
+              </ul>
+              <div class="build-card-footer">
+                <span class="build-price">$3,499</span>
+                <a href="contact.html" class="btn-view">Enquire <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: O11 Hardline -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="custom available gaming">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-water" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-available">Available</span>
+                <span class="tag tag-custom">Custom Build</span>
+              </div>
+              <div class="build-card-title">O11 Hardline Loop</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Intel i9-12900K</li>
+                <li><i class="bi bi-gpu-card"></i> RTX 4080 Super (waterblocked)</li>
+                <li><i class="bi bi-memory"></i> 32GB DDR5 5600MHz</li>
+                <li><i class="bi bi-device-ssd"></i> 1TB + 2TB NVMe</li>
+                <li><i class="bi bi-thermometer-half"></i> Full custom hardline loop</li>
+              </ul>
+              <div class="build-card-footer">
+                <span class="build-price">$2,899</span>
+                <a href="contact.html" class="btn-view">Enquire <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: i9 9900K Gaming PC (current listing) -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="gaming available">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-motherboard" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-available">Available</span>
+                <span class="tag tag-gaming">Gaming</span>
+              </div>
+              <div class="build-card-title">Phanteks Evolv X — 3080 Ti Build</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Intel i9-9900K (8c/16t, unlocked)</li>
+                <li><i class="bi bi-gpu-card"></i> RTX 3080 Ti 12GB ASUS TUF OC</li>
+                <li><i class="bi bi-memory"></i> 32GB DDR4 3600MHz G.Skill</li>
+                <li><i class="bi bi-device-ssd"></i> 500GB WD Blue SSD</li>
+                <li><i class="bi bi-wind"></i> Corsair 240mm RGB AIO</li>
+              </ul>
+              <div class="build-card-footer">
+                <span class="build-price">$1,350</span>
+                <a href="contact.html" class="btn-view">Enquire <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Budget Gaming -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="gaming available sale">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-controller" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-available">Available</span>
+                <span class="tag tag-gaming">Gaming</span>
+                <span class="tag tag-sale">Sale -14%</span>
+              </div>
+              <div class="build-card-title">Budget 1080p Beast</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Intel i5-12400F</li>
+                <li><i class="bi bi-gpu-card"></i> RTX 3070 8GB</li>
+                <li><i class="bi bi-memory"></i> 16GB DDR4 3600MHz</li>
+                <li><i class="bi bi-device-ssd"></i> 500GB NVMe SSD</li>
+                <li><i class="bi bi-box"></i> Compact mid-tower</li>
+              </ul>
+              <div class="build-card-footer">
+                <div>
+                  <span class="build-price-old">$1,099</span>
+                  <span class="build-price">$949</span>
+                </div>
+                <a href="contact.html" class="btn-view">Enquire <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Workstation -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="workstation available">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-display" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-available">Available</span>
+                <span class="tag tag-workstation">Workstation</span>
+              </div>
+              <div class="build-card-title">Render & Edit Workstation</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Ryzen 9 5950X (16c/32t)</li>
+                <li><i class="bi bi-gpu-card"></i> RTX 3090 24GB</li>
+                <li><i class="bi bi-memory"></i> 128GB DDR4 3200MHz ECC</li>
+                <li><i class="bi bi-device-ssd"></i> 2TB NVMe + 4TB HDD</li>
+                <li><i class="bi bi-plug"></i> 1000W Platinum PSU</li>
+              </ul>
+              <div class="build-card-footer">
+                <span class="build-price">$3,799</span>
+                <a href="contact.html" class="btn-view">Enquire <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: SOLD example -->
+        <div class="col-lg-4 col-md-6 build-col animate-fade-up">
+          <div class="build-card" data-category="gaming sold" style="opacity:0.6;">
+            <div class="build-card-image">
+              <div class="build-card-image-placeholder" style="height:220px;">
+                <i class="bi bi-pc-display" style="font-size:3rem;color:var(--border);"></i>
+              </div>
+            </div>
+            <div class="build-card-body">
+              <div class="build-card-tags">
+                <span class="tag tag-sold">Sold</span>
+                <span class="tag tag-gaming">Gaming</span>
+              </div>
+              <div class="build-card-title">Ablin Build — 7900 XTX</div>
+              <ul class="build-specs">
+                <li><i class="bi bi-cpu"></i> Intel i9-13900 (24c)</li>
+                <li><i class="bi bi-gpu-card"></i> RX 7900 XTX 24GB</li>
+                <li><i class="bi bi-memory"></i> 32GB DDR5 5600MHz</li>
+                <li><i class="bi bi-device-ssd"></i> 2TB NVMe SSD</li>
+              </ul>
+              <div class="build-card-footer">
+                <span class="build-price" style="color:var(--text-muted);">$2,799</span>
+                <span style="font-size:var(--text-xs);color:var(--text-muted);font-weight:600;">SOLD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /row -->
+
+      <!-- Custom Build CTA -->
+      <div class="mt-5 pt-3 animate-fade-up">
+        <div class="cta-banner">
+          <h2 class="cta-banner-title" style="font-size:var(--text-xl);">Don't see what you're after?</h2>
+          <p class="cta-banner-sub">Tell us your budget and what you're using it for. We'll spec and build it from scratch.</p>
+          <a href="contact.html" class="btn-primary-custom">Request a Custom Build <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <span class="footer-brand">PC Build<span>.</span>Co</span>
+          <p class="footer-tagline">Custom PCs, repairs, and upgrades. Built properly in Docklands, Melbourne.</p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-heading">Navigation</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="builds.html">Builds</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Services</div>
+          <ul class="footer-links">
+            <li><a href="services.html">Custom Builds</a></li>
+            <li><a href="services.html">PC Repair</a></li>
+            <li><a href="services.html">Hardware Upgrades</a></li>
+            <li><a href="services.html">Data Wiping</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Location</div>
+          <ul class="footer-links">
+            <li style="color:var(--text-muted);font-size:var(--text-sm);">Docklands, Melbourne VIC</li>
+            <li style="margin-top:8px;"><a href="contact.html">james@pcbuild.co</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">© 2025 James' Computer Repair. All rights reserved.</span>
+        <span class="footer-abn">ABN: XX XXX XXX XXX</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
