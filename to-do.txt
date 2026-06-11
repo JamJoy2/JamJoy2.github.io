@@ -1,10 +1,9 @@
 ---
 ** to do: **
-- Bootstrap tags for sold builds 
 - work out a simple method to add builds to site 
 - connect form to actual inbox -- try not to get hacked as all code is public :O
 - add to service / pricing / add ABN and details 
-- scroll through the tag on phone 
+- pages for individual builds with some sort of contact / buy flow
 ---
 AIBS: 
 **Contact form** — replace `YOUR_FORM_ID` in `contact.html` with your Formspree ID:
