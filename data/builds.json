@@ -46,8 +46,8 @@
     }
   },
   {
-    "id": "evolv-3080ti",
-    "name": "Phanteks Evolv X — 3080 Ti",
+    "id": "evolv-3080 10gb oc",
+    "name": "Phanteks Evolv X — 3080 10gb",
     "tagline": "Freshly built. Fully tested. Ready for 1440p.",
     "status": "Available",
     "price": 1350,
@@ -69,8 +69,8 @@
     "specs": {
       "CPU": "Intel i9-9900K (8c/16t, unlocked)",
       "Motherboard": "ASRock Z390 Phantom Gaming",
-      "GPU": "RTX 3080 Ti 12GB ASUS TUF OC",
-      "RAM": "32GB DDR4 3600MHz G.Skill Trident Z",
+      "GPU": "RTX 3080 10gb ASUS TUF OC",
+      "RAM": "32GB DDR4 3600MHz",
       "Storage": "500GB WD Blue SSD (90% health)",
       "Cooling": "Corsair 240mm RGB AIO",
       "PSU": "Corsair RM850i 850W Gold",
@@ -125,13 +125,13 @@
     ],
     "specs": {
       "CPU": "am4 ryzen 7 3700x (8c/16t)",
-      "Motherboard": "ASUS ROG Maximus Z690 Hero",
-      "GPU": "RTX 3080 Super 1610B (air cooled)",
-      "RAM": "32GB DDR5 5600MHz Corsair Dominator",
-      "Storage": "1TB + 2TB WD Black NVMe",
-      "Cooling": "Full custom hardline loop — 360mm + 240mm radiators",
+      "Motherboard": "gigabyte x570",
+      "GPU": "RTX 3080 Super 10gB (air cooled)",
+      "RAM": "32GB DDR4 3600MHz Corsair Dominator",
+      "Storage": "1TB WD Black NVMe",
+      "Cooling": "Full custom soft tube loop — 360mm radiator",
       "PSU": "Seasonic Prime TX-1000 1000W Titanium",
-      "Case": "Lian Li O11 Dynamic XL"
+      "Case": "NZXT case"
     },
     "benchmarks": {
       "Cinebench R23 (Multi)": "~26,000",
@@ -139,7 +139,7 @@
       "GPU Temp (load)": "~55°C (waterblock)",
       "CPU Temp (load)": "~65°C"
     },
-    "description": "Full custom hardline water loop in a Lian Li O11 Dynamic XL. Waterblocked GPU, distro plate, rigid PETG tubing throughout. This is a serious build for someone who wants the best thermals, the lowest noise floor, and a showpiece rig. Temps are exceptional — GPU sits around 55°C under full load.",
+    "description": "Full custom soft tube water loop in a NZXT case. Air cooled GPU, soft tubing throughout. This is a serious build for someone who wants the best thermals, the lowest noise floor, and a showpiece rig. Temps are exceptional — GPU sits around 65°C under full load.",
     "highlights": [
       "Nvidia RTX 3080 10gb",
       "Custom ek soft tubing",
