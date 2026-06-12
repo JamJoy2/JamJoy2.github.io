@@ -212,29 +212,29 @@
       "images/builds/threadripperWorkstation/11.jpg"
     ],
     "specs": {
-      "CPU": "AMD Ryzen threadripper (32c/64t)",
+      "CPU": "AMD Ryzen threadripper 2990wx (32c/64t)",
       "Motherboard": "gigabyte gaming III X399-gaming-3",
-      "GPU": "RTX 3090 24GB",
+      "GPU": "2x rtx 2080 ti 11gb",
       "RAM": "128GB DDR4 3200MHz ECC",
-      "Storage": "2TB NVMe SSD + 4TB HDD",
-      "Cooling": "Noctua NH-D15 (silent dual tower)",
+      "Storage": "2x 2TB NVMe SSD + 4TB HDD",
+      "Cooling": "Noctua Threadripper cooler (silent dual tower)",
       "PSU": "be quiet! Dark Power Pro 1000W Platinum",
-      "Case": "Fractal Design Define 7 XL"
+      "Case": "Thermaltake ATX case"
     },
     "benchmarks": {
       "Cinebench R23 (Multi)": "~26,500",
       "Blender BMW Render": "~1m 40s",
       "DaVinci Resolve 4K Export": "Smooth realtime playback",
-      "VRAM (GPU)": "24GB — handles large VRAM workloads"
+      "VRAM (GPUs)": "22GB — handles large VRAM workloads"
     },
-    "description": "Purpose-built for video editing, 3D rendering, and creative workloads. 128GB ECC RAM, 16 cores, and a 24GB GPU make this machine laugh at anything you throw at it. Noctua cooling keeps it whisper quiet under load. Built for professionals.",
+    "description": "Purpose-built for video editing, 3D rendering, and creative workloads. 128GB ECC RAM, 32 cores, and two 11GB GPUs make this machine laugh at anything you throw at it. Noctua cooling keeps it whisper quiet under load. Built for professionals.",
     "highlights": [
       "128GB ECC RAM — massive headroom",
-      "RTX 3090 24GB — serious VRAM",
-      "Noctua NH-D15 — near silent",
-      "Fractal Define 7 XL — acoustically dampened",
+      "RTX 2080 ti xt — serious VRAM",
+      "Noctua CPU cooler — near silent",
       "ECC memory for data integrity",
-      "16 cores / 32 threads"
+      "2990wx - 32 cores / 64 threads",
+      "Quad channel memory support"
     ],
     "cta": {
       "primary": "Enquire About This Build",
