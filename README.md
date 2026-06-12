@@ -8,8 +8,10 @@ we will take over the world ! (or just melb pc market)
 ** to do: **
 - add photos of builds 
 - dynamicly link current inv to json (make it scalable from 1-3 and i can select with tags)
+- dynamicly add sold builds to bottom of blog page via tags
 - add DNS (maybe free student one )
 - add to service / pricing / add ABN and details 
+- fix link at bottom of index page for insta / fb / yt icon 
 ---
 
 ## future admin dashboard 
