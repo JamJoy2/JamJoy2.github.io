@@ -6,25 +6,19 @@ we will take over the world ! (or just melb pc market)
 ** this is my shrexy to do list and some random stuff ** 
 ---
 ** to do: **
-- Bootstrap tags for sold builds 
-- work out a simple method to add builds to site 
-- connect form to actual inbox -- try not to get hacked as all code is public :O
+- add photos of builds 
+- dynamicly link current inv to json (make it scalable from 1-3 and i can select with tags)
+- add DNS (maybe free student one )
 - add to service / pricing / add ABN and details 
 ---
-AIBS: 
-**Contact form** — replace `YOUR_FORM_ID` in `contact.html` with your Formspree ID:
-   - Sign up at https://formspree.io (free)
-   - Create a form and get your ID (looks like `xpwzgbkv`)
-   - Find and replace `YOUR_FORM_ID` in `contact.html`
 
-3. **ABN** — replace `XX XXX XXX XXX` in all four HTML files with your actual ABN.
-
-4. **Email** — replace `james@pcbuild.co` with your actual email address.
-
-5. **Social links** — update Facebook Marketplace and Instagram URLs in `index.html`, `builds.html`, and `contact.html`.
+## future admin dashboard 
+management for drag from folder to the dashboard = read / wrights fills in json enterys for specs condition tags ETC 
+toggle sold / avalable / pending 
+kept on my personal pc so it cannot be used by anyone else lol
+some sort of protection / backup version when adding in case somthing goes wrong 
 
 ---
-
 ## Adding new builds
 
 Open `builds.html` and duplicate one of the `<div class="col-lg-4 col-md-6 build-col">` blocks.

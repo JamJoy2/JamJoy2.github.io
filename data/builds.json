@@ -2,8 +2,8 @@
   {
     "id": "marathon",
     "name": "Marathon Build",
-    "tagline": "Custom showcase system. Built to impress and perform.",
-    "status": "Available",
+    "tagline": "Custom showcase system. In the works, but will be built to impress and perform.",
+    "status": "In-Progress",
     "price": 3499,
     "category": ["custom", "highend"],
     "featured": true,
@@ -18,11 +18,11 @@
       "CPU": "AMD Ryzen 9 7900X (12c/24t)",
       "Motherboard": "ASUS ROG X870-E Master",
       "GPU": "RTX 5070 Ti 16GB",
-      "RAM": "64GB DDR5 6000MHz G.Skill Trident Z5",
-      "Storage": "2TB Samsung 990 Pro NVMe",
-      "Cooling": "360mm Custom AIO",
+      "RAM": "64GB DDR5 4800MHz G.Skill Trident Z5",
+      "Storage": "2TB gen5 NVMe",
+      "Cooling": "TRX 360mm Custom AIO",
       "PSU": "Corsair RM1000x 1000W Gold",
-      "Case": "Lian Li O11 Dynamic EVO",
+      "Case": "X50 hyte",
       "OS": "Windows 11 Pro"
     },
     "benchmarks": {
@@ -31,7 +31,7 @@
       "3DMark Time Spy": "22,100",
       "FurMark (1440p)": "Stable — 72°C GPU max"
     },
-    "description": "The Marathon is James' personal showcase build, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
+    "description": " James' personal showcase build, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
     "highlights": [
       "Custom sleeved cable extensions (white/black)",
       "3D printed custom fan grills",
@@ -97,22 +97,36 @@
     }
   },
   {
-    "id": "o11-hardline",
-    "name": "O11 Hardline Loop",
-    "tagline": "Full custom hardline water cooling. One of a kind.",
-    "status": "Available",
+    "id": "NZXT-hardline",
+    "name": "NZXT Hardline Loop",
+    "tagline": "custom soft water cooling. One of a kind.",
+    "status": "Sold",
     "price": 2899,
     "category": ["custom", "gaming"],
     "featured": true,
-    "featuredImage": "images/builds/o11-main.jpg",
+    "featuredImage": "/images/builds/am4CustomLoopSold/1.jpg",
     "gallery": [
-      "images/builds/o11-main.jpg",
-      "images/builds/o11-loop.jpg"
+      "/images/builds/am4CustomLoopSold/2.jpg",
+      "/images/builds/am4CustomLoopSold/3.jpg",
+      "/images/builds/am4CustomLoopSold/4.jpg",
+      "/images/builds/am4CustomLoopSold/5.jpg",
+      "/images/builds/am4CustomLoopSold/6.jpg",
+      "/images/builds/am4CustomLoopSold/7.jpg",
+      "/images/builds/am4CustomLoopSold/8.jpg",
+      "/images/builds/am4CustomLoopSold/9.jpg",
+      "/images/builds/am4CustomLoopSold/10.jpg",
+      "/images/builds/am4CustomLoopSold/11.jpg",
+      "/images/builds/am4CustomLoopSold/12.jpg",
+      "/images/builds/am4CustomLoopSold/13.jpg",
+      "/images/builds/am4CustomLoopSold/14.jpg",
+      "/images/builds/am4CustomLoopSold/15.jpg",
+      "/images/builds/am4CustomLoopSold/16.jpg",
+      "/images/builds/am4CustomLoopSold/17.jpg"
     ],
     "specs": {
-      "CPU": "Intel i9-12900K (16c/24t)",
+      "CPU": "am4 ryzen 7 3700x (8c/16t)",
       "Motherboard": "ASUS ROG Maximus Z690 Hero",
-      "GPU": "RTX 4080 Super 16GB (waterblocked)",
+      "GPU": "RTX 3080 Super 1610B (air cooled)",
       "RAM": "32GB DDR5 5600MHz Corsair Dominator",
       "Storage": "1TB + 2TB WD Black NVMe",
       "Cooling": "Full custom hardline loop — 360mm + 240mm radiators",
@@ -127,10 +141,10 @@
     },
     "description": "Full custom hardline water loop in a Lian Li O11 Dynamic XL. Waterblocked GPU, distro plate, rigid PETG tubing throughout. This is a serious build for someone who wants the best thermals, the lowest noise floor, and a showpiece rig. Temps are exceptional — GPU sits around 55°C under full load.",
     "highlights": [
-      "Waterblocked RTX 4080 Super",
-      "Custom rigid PETG hardline tubing",
-      "Distro plate — no mess of soft tubes",
-      "360mm + 240mm radiator setup",
+      "Nvidia RTX 3080 10gb",
+      "Custom ek soft tubing",
+      "clean loop -no mess of soft tubes",
+      "360mm radiator setup",
       "GPU load temps ~55°C",
       "Seasonic Titanium PSU — top tier efficiency"
     ],
@@ -139,89 +153,7 @@
       "secondary": "Reserve This Build"
     }
   },
-  {
-    "id": "budget-1080p",
-    "name": "Budget 1080p Beast",
-    "tagline": "Everything you need. Nothing you don't.",
-    "status": "Available",
-    "price": 949,
-    "originalPrice": 1099,
-    "category": ["gaming", "sale"],
-    "featured": false,
-    "featuredImage": "images/builds/budget-main.jpg",
-    "gallery": [
-      "images/builds/budget-main.jpg"
-    ],
-    "specs": {
-      "CPU": "Intel i5-12400F (6c/12t)",
-      "Motherboard": "MSI Pro B660M-A",
-      "GPU": "RTX 3070 8GB",
-      "RAM": "16GB DDR4 3600MHz",
-      "Storage": "500GB NVMe SSD",
-      "Cooling": "DeepCool AK400 air cooler",
-      "PSU": "Corsair CV650 650W Bronze",
-      "Case": "Fractal Design Focus 2"
-    },
-    "benchmarks": {
-      "3DMark Time Spy": "~12,400",
-      "FurMark (1080p)": "Stable — 68°C GPU max",
-      "Average FPS (1080p Ultra)": "100+ fps in most titles"
-    },
-    "description": "Clean, compact mid-range build that absolutely maxes out 1080p and handles 1440p high in most titles. No RGB fluff — just solid parts that work. Great first PC or secondary rig. Everything tested and confirmed stable.",
-    "highlights": [
-      "1080p Ultra — handles everything",
-      "Quiet DeepCool air cooler",
-      "Compact Fractal Design case",
-      "Confirmed stable — FurMark passed",
-      "Clean cable management"
-    ],
-    "cta": {
-      "primary": "Enquire About This Build",
-      "secondary": "Make an Offer"
-    }
-  },
-  {
-    "id": "workstation-5950x",
-    "name": "Render & Edit Workstation",
-    "tagline": "128GB RAM. 16 cores. No compromises.",
-    "status": "Available",
-    "price": 3799,
-    "category": ["workstation"],
-    "featured": false,
-    "featuredImage": "images/builds/workstation-main.jpg",
-    "gallery": [
-      "images/builds/workstation-main.jpg"
-    ],
-    "specs": {
-      "CPU": "AMD Ryzen 9 5950X (16c/32t)",
-      "Motherboard": "ASUS ProArt X570-Creator",
-      "GPU": "RTX 3090 24GB",
-      "RAM": "128GB DDR4 3200MHz ECC",
-      "Storage": "2TB NVMe SSD + 4TB HDD",
-      "Cooling": "Noctua NH-D15 (silent dual tower)",
-      "PSU": "be quiet! Dark Power Pro 1000W Platinum",
-      "Case": "Fractal Design Define 7 XL"
-    },
-    "benchmarks": {
-      "Cinebench R23 (Multi)": "~26,500",
-      "Blender BMW Render": "~1m 40s",
-      "DaVinci Resolve 4K Export": "Smooth realtime playback",
-      "VRAM (GPU)": "24GB — handles large VRAM workloads"
-    },
-    "description": "Purpose-built for video editing, 3D rendering, and creative workloads. 128GB ECC RAM, 16 cores, and a 24GB GPU make this machine laugh at anything you throw at it. Noctua cooling keeps it whisper quiet under load. Built for professionals.",
-    "highlights": [
-      "128GB ECC RAM — massive headroom",
-      "RTX 3090 24GB — serious VRAM",
-      "Noctua NH-D15 — near silent",
-      "Fractal Define 7 XL — acoustically dampened",
-      "ECC memory for data integrity",
-      "16 cores / 32 threads"
-    ],
-    "cta": {
-      "primary": "Enquire About This Build",
-      "secondary": "Request More Information"
-    }
-  },
+
   {
     "id": "7900xtx-workstation",
     "name": "i9 7900xtx workstation",
@@ -257,5 +189,57 @@
       "primary": "See Available Builds",
       "secondary": "Request a Similar Build"
     }
+  },
+   {
+    "id": "workstation threadripper",
+    "name": "Workstation",
+    "tagline": "128GB RAM. 32 cores. No compromises.",
+    "status": "Sold",
+    "price": 2000,
+    "category": ["workstation"],
+    "featured": false,
+    "featuredImage": "images/builds/threadripperWorkstation/1.jpg",
+    "gallery": [
+      "images/builds/threadripperWorkstation/2.jpg",
+      "images/builds/threadripperWorkstation/3.jpg",
+      "images/builds/threadripperWorkstation/4.jpg",
+      "images/builds/threadripperWorkstation/5.jpg",
+      "images/builds/threadripperWorkstation/6.jpg",
+      "images/builds/threadripperWorkstation/7.jpg",
+      "images/builds/threadripperWorkstation/8.jpg",
+      "images/builds/threadripperWorkstation/9.jpg",
+      "images/builds/threadripperWorkstation/10.jpg",
+      "images/builds/threadripperWorkstation/11.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen threadripper (32c/64t)",
+      "Motherboard": "gigabyte gaming III X399-gaming-3",
+      "GPU": "RTX 3090 24GB",
+      "RAM": "128GB DDR4 3200MHz ECC",
+      "Storage": "2TB NVMe SSD + 4TB HDD",
+      "Cooling": "Noctua NH-D15 (silent dual tower)",
+      "PSU": "be quiet! Dark Power Pro 1000W Platinum",
+      "Case": "Fractal Design Define 7 XL"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "~26,500",
+      "Blender BMW Render": "~1m 40s",
+      "DaVinci Resolve 4K Export": "Smooth realtime playback",
+      "VRAM (GPU)": "24GB — handles large VRAM workloads"
+    },
+    "description": "Purpose-built for video editing, 3D rendering, and creative workloads. 128GB ECC RAM, 16 cores, and a 24GB GPU make this machine laugh at anything you throw at it. Noctua cooling keeps it whisper quiet under load. Built for professionals.",
+    "highlights": [
+      "128GB ECC RAM — massive headroom",
+      "RTX 3090 24GB — serious VRAM",
+      "Noctua NH-D15 — near silent",
+      "Fractal Define 7 XL — acoustically dampened",
+      "ECC memory for data integrity",
+      "16 cores / 32 threads"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Request More Information"
+    }
   }
+  
 ]
