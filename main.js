@@ -1,5 +1,5 @@
 /* =========================================
-   PC BUILD CO. — MAIN.JS
+   JAMES BUILDS — MAIN.JS
    ========================================= */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -28,29 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // ── Build filter (builds.html)
-  const filterBtns = document.querySelectorAll('.filter-btn');
-  const buildCards = document.querySelectorAll('[data-category]');
-
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filter = btn.dataset.filter;
-      buildCards.forEach(card => {
-        const parent = card.closest('.build-col');
-        if (!parent) return;
-        if (filter === 'all' || card.dataset.category.includes(filter)) {
-          parent.style.display = '';
-          card.closest('.build-col').classList.remove('d-none');
-        } else {
-          parent.style.display = 'none';
-        }
-      });
-    });
-  });
-
   // ── Scroll animations
   const observerOpts = { threshold: 0.12, rootMargin: '0px 0px -40px 0px' };
   const observer = new IntersectionObserver((entries) => {
@@ -66,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.animate-fade-up').forEach(el => observer.observe(el));
 
-  // ── Contact form (Formspree handler with AJAX)
+  // ── Contact form (web3forms handler with AJAX)
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
     const submitBtn = document.getElementById('submitBtn');
@@ -104,5 +81,15 @@ document.addEventListener('DOMContentLoaded', () => {
   buildCols.forEach((col, i) => {
     col.style.transitionDelay = `${i * 50}ms`;
   });
+
+  // ── Reviews tab panel (null-checked — only exists on one page)
+  const tab = document.getElementById('reviews-tab');
+  const panel = document.getElementById('reviews-panel');
+  const closeBtn = document.getElementById('close-reviews');
+
+  if (tab && panel && closeBtn) {
+    tab.onclick = () => panel.classList.add('open');
+    closeBtn.onclick = () => panel.classList.remove('open');
+  }
 
 });

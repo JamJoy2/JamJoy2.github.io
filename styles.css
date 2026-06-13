@@ -344,10 +344,33 @@ h1, h2, h3, h4, h5 {
 .tag-sale        { background: rgba(224,82,82,0.15);    color: var(--danger);  border: 1px solid rgba(224,82,82,0.25); }
 .tag-gaming      { background: var(--accent-dim);       color: var(--accent);  border: 1px solid rgba(79,142,247,0.25); }
 .tag-workstation { background: rgba(139,92,246,0.15);   color: #a78bfa;        border: 1px solid rgba(139,92,246,0.25); }
+.tag-in-progress { background: rgba(234,179,8,0.15);    color: #f59e0b;        border: 1px solid rgba(234,179,8,0.3); }
 .tag-available   { background: rgba(61,170,110,0.15);   color: var(--success); border: 1px solid rgba(61,170,110,0.25); }
 .tag-sold        { background: #dc2626;                 color: white;          border: 1px solid #ef4444; font-weight: 700; }
 .tag-custom      { background: rgba(217,119,6,0.15);    color: #fbbf24;        border: 1px solid rgba(217,119,6,0.25); }
 .tag-highend     { background: rgba(236,72,153,0.12);   color: #f472b6;        border: 1px solid rgba(236,72,153,0.2); }
+
+/* ── Blinking cursor in navbar brand */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+.blinking-cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+  color: var(--accent);
+  margin-left: 2px;
+}
+
+/* ── Footer social links */
+.footer-social-link {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  transition: color 0.2s;
+}
+.footer-social-link:hover {
+  color: var(--text-primary);
+}
 
 /* =========================================
    TRUST BAR
@@ -1349,4 +1372,18 @@ textarea.form-control-custom { resize: vertical; min-height: 130px; }
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+.review-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #4285F4;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.review-btn:hover {
+    transform: translateY(-2px);
 }
