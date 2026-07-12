@@ -199,121 +199,12 @@
       </div>
 
       <div class="position-relative px-lg-4 animate-fade-up">
-        <div id="buildsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#buildsCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#buildsCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#buildsCarousel" data-bs-slide-to="2"></button>
-          </div>
-          <div class="carousel-inner">
-
-            <!-- Slide 1 -->
-            <div class="carousel-item active">
-              <div class="featured-carousel-slide">
-                <div class="row g-0">
-                  <div class="col-lg-6">
-                    <div class="carousel-img-wrap">
-                      <img src="images/pc2.jpg" alt="pc2">
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="carousel-content">
-                      <div class="build-card-tags mb-3">
-                        <span class="tag tag-available">Available</span>
-                        <span class="tag tag-highend">High-end</span>
-                      </div>
-                      <h3 style="font-size:var(--text-xl);margin-bottom:12px;">Marathon Build</h3>
-                      <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Custom showcase system with sleeved cables, 3D printed accents, and custom paint. Built to impress and perform.</p>
-                      <ul class="build-specs mb-4">
-                        <li><i class="bi bi-cpu"></i> Ryzen 9 7900X (12c/24t)</li>
-                        <li><i class="bi bi-gpu-card"></i> RTX 5070 Ti 16GB</li>
-                        <li><i class="bi bi-memory"></i> 64GB DDR5 6000MHz</li>
-                        <li><i class="bi bi-device-ssd"></i> 2TB NVMe SSD</li>
-                      </ul>
-                      <div style="display:flex;align-items:center;gap:20px;">
-                        <span class="build-price">$3,499</span>
-                        <a href="builds.html" class="btn-view">View Listing <i class="bi bi-arrow-right"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="carousel-item">
-              <div class="featured-carousel-slide">
-                <div class="row g-0">
-                  <div class="col-lg-6">
-                    <div class="carousel-img-wrap">
-                      <img src="images/pc3.jpg">
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="carousel-content">
-                      <div class="build-card-tags mb-3">
-                        <span class="tag tag-available">Available</span>
-                        <span class="tag tag-custom">Custom Build</span>
-                      </div>
-                      <h3 style="font-size:var(--text-xl);margin-bottom:12px;">O11 Hardline Loop</h3>
-                      <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Full custom hardline water loop in a Lian Li O11 Dynamic. Waterblocked GPU, distro plate, and rigid tubing throughout.</p>
-                      <ul class="build-specs mb-4">
-                        <li><i class="bi bi-cpu"></i> Intel i9-12900K</li>
-                        <li><i class="bi bi-gpu-card"></i> RTX 4080 Super (waterblocked)</li>
-                        <li><i class="bi bi-memory"></i> 32GB DDR5 5600MHz</li>
-                        <li><i class="bi bi-device-ssd"></i> 1TB NVMe + 2TB NVMe</li>
-                      </ul>
-                      <div style="display:flex;align-items:center;gap:20px;">
-                        <span class="build-price">$2,899</span>
-                        <a href="builds.html" class="btn-view">View Listing <i class="bi bi-arrow-right"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="carousel-item">
-              <div class="featured-carousel-slide">
-                <div class="row g-0">
-                  <div class="col-lg-6">
-                    <div class="carousel-img-wrap">
-                      <img src="images/testpc.jpg" alt="Marathon Build">
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="carousel-content">
-                      <div class="build-card-tags mb-3">
-                        <span class="tag tag-available">Available</span>
-                        <span class="tag tag-gaming">Gaming</span>
-                        <span class="tag tag-sale">Sale</span>
-                      </div>
-                      <h3 style="font-size:var(--text-xl);margin-bottom:12px;">Budget 1080p Beast</h3>
-                      <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Clean mid-range build, maxed at 1080p ultra. Ideal first PC or secondary rig. Compact and quiet with solid thermals.</p>
-                      <ul class="build-specs mb-4">
-                        <li><i class="bi bi-cpu"></i> Intel i5-12400F</li>
-                        <li><i class="bi bi-gpu-card"></i> RTX 3070 8GB</li>
-                        <li><i class="bi bi-memory"></i> 16GB DDR4 3600MHz</li>
-                        <li><i class="bi bi-device-ssd"></i> 500GB NVMe SSD</li>
-                      </ul>
-                      <div style="display:flex;align-items:center;gap:20px;">
-                        <span class="build-price-old">$1,099</span>
-                        <span class="build-price">$949</span>
-                        <a href="builds.html" class="btn-view">View <i class="bi bi-arrow-right"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#buildsCarousel" data-bs-slide="prev">
+        <div id="homeFeaturedCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner" id="homeFeaturedCarouselInner"></div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#homeFeaturedCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#buildsCarousel" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#homeFeaturedCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
           </button>
         </div>

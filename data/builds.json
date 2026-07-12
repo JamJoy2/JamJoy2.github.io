@@ -2,11 +2,12 @@
   {
     "id": "marathon",
     "name": "Marathon Build",
-    "tagline": "Custom showcase system. In the works, but will be built to impress and perform.",
+    "tagline": "Custom showcase system. In the works, but will be built to impress and perform. plan is custom paint job, bold colors and custom sleeved cables ",
     "status": "In-Progress",
     "price": 3499,
     "category": ["custom", "highend"],
     "featured": true,
+    "homeFeatured": true,
     "featuredImage": "images/builds/marathon-main.jpg",
     "gallery": [
       "images/builds/marathon-main.jpg",
@@ -14,6 +15,7 @@
       "images/builds/marathon-cables.jpg",
       "images/builds/marathon-rgb.jpg"
     ],
+    
     "specs": {
       "CPU": "AMD Ryzen 9 7900X (12c/24t)",
       "Motherboard": "ASUS ROG X870-E Master",
@@ -45,6 +47,55 @@
       "secondary": "Reserve This Build"
     }
   },
+   {
+    "id": "rogstrixloop",
+    "name": "rog strix custom loop",
+    "tagline": "Custom showcase system. Sleeved custom liquid cooling loop ",
+    "status": "In-Progress",
+    "price": 3250,
+    "category": ["custom", "highend"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/marathon-main.jpg",
+    "gallery": [
+      "images/builds/marathon-main.jpg",
+      "images/builds/marathon-side.jpg",
+      "images/builds/marathon-cables.jpg",
+      "images/builds/marathon-rgb.jpg"
+    ],
+    
+    "specs": {
+      "CPU": "intel i9 14900kf (12c/24t)",
+      "Motherboard": "Z790 apex encore",
+      "GPU": "RTX 4080 super 16GB",
+      "RAM": "64GB DDR5 8800MHz G.Skill Trident Z5",
+      "Storage": "1TB gen4 NVMe",
+      "Cooling": "rog aio",
+      "PSU": "rog thor 1200w platnum",
+      "Case": "rog case",
+      "OS": "Windows 11 Pro"
+    },
+    "benchmarks": {
+      "Cinebench R23 (Multi)": "28,400",
+      "Cinebench R23 (Single)": "1,960",
+      "3DMark Time Spy": "22,100",
+      "FurMark (1440p)": "Stable — 72°C GPU max"
+    },
+    "description": " James' personal showcase build, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
+    "highlights": [
+      "Custom sleeved cable extensions (white/black)",
+      "3D printed custom fan grills",
+      "Full stress tested — FurMark + Cinebench",
+      "64GB DDR5 running at rated 6000MHz XMP",
+      "WiFi 6E + Bluetooth 5.3 onboard",
+      "Clean cable routing, zero loose cables"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  
   {
     "id": "3080-workstation",
     "name": "i5-12400 + RTX 3080 Workstation",
@@ -53,6 +104,7 @@
     "price": 1499,
     "category": ["gaming", "workstation"],
     "featured": true,
+    "homeFeatured": true,
     "featuredImage": "images/3080%20workstation/1.jpg",
     "gallery": [
       "images/3080%20workstation/1.jpg",
