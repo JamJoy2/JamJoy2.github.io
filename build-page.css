@@ -17,7 +17,7 @@
   overflow: hidden;
   border: 1px solid var(--border);
   background: var(--bg-elevated);
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 1 / 1;
 }
 
 .build-main-image {
@@ -57,6 +57,7 @@
   cursor: pointer;
   transition: border-color 0.2s;
   flex-shrink: 0;
+  aspect-ratio: 1 / 1;
 }
 
 .build-thumb img {

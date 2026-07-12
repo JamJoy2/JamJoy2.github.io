@@ -46,10 +46,54 @@
     }
   },
   {
+    "id": "3080-workstation",
+    "name": "i5-12400 + RTX 3080 Workstation",
+    "tagline": "Freshly built performance-focused gaming and workstation PC.",
+    "status": "Available",
+    "price": 1499,
+    "category": ["gaming", "workstation"],
+    "featured": true,
+    "featuredImage": "images/3080%20workstation/1.jpg",
+    "gallery": [
+      "images/3080%20workstation/1.jpg",
+      "images/3080%20workstation/2.jpg",
+      "images/3080%20workstation/3.jpg",
+      "images/3080%20workstation/4.jpg",
+      "images/3080%20workstation/5.jpg",
+      "images/3080%20workstation/6.jpg",
+      "images/3080%20workstation/7.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core i5-12400",
+      "GPU": "ASUS GeForce RTX 3080 10GB",
+      "RAM": "32GB DDR4-3200 RAM",
+      "Motherboard": "ASUS TUF Z690-P Gaming WiFi (WiFi 6E, Bluetooth 5.0)",
+      "Storage": "Samsung 980 NVMe 1TB SSD (99% disk health)",
+      "PSU": "Hydro G Pro 1000W 80+ Gold PSU (spare cables included)",
+      "Cooling": "Stock Intel CPU cooler",
+      "Case": "Corsair 4000D Airflow case",
+      "Extras": "2x Noctua 140mm + 1x Noctua 120mm fans"
+    },
+    "benchmarks": {},
+    "description": "Freshly built performance-focused gaming and workstation PC, backed by three months of peace-of-mind warranty and ongoing builder support. Every component has been cleaned, stress-tested, and professionally repasted for optimal thermals. PC is ready to plug in and immediately start gaming. With the i5-12400 and RTX 3080 10GB, expect 144+ FPS at 1080p on high settings, strong 1440p performance with ray tracing enabled, and plenty of headroom for streaming, content creation, and workstation tasks. Clean cable routing on both front and back panels keeps things low-clutter and easy to maintain, and the premium Noctua fan setup delivers exceptional thermals with quiet operation under full load.",
+    "highlights": [
+      "144+ FPS 1080p high settings",
+      "Strong 1440p + ray tracing performance",
+      "3 months warranty and builder support",
+      "Professionally cleaned, stress-tested, and repasted",
+      "Noctua airflow setup for quiet thermals",
+      "Clean cable routing front and back"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
     "id": "evolv-3080 10gb oc",
     "name": "Phanteks Evolv X — 3080 10gb",
     "tagline": "Freshly built. Fully tested. Ready for 1440p.",
-    "status": "Available",
+    "status": "Sold",
     "price": 1350,
     "category": ["gaming"],
     "featured": true,
