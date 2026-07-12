@@ -6,7 +6,6 @@
     "status": "In-Progress",
     "price": 3499,
     "category": ["custom", "highend"],
-    "featured": true,
     "homeFeatured": true,
     "featuredImage": "images/builds/marathon-main.jpg",
     "gallery": [
@@ -55,7 +54,6 @@
     "price": 3250,
     "category": ["custom", "highend"],
     "featured": true,
-    "homeFeatured": true,
     "featuredImage": "images/builds/marathon-main.jpg",
     "gallery": [
       "images/builds/marathon-main.jpg",
@@ -69,6 +67,7 @@
       "Motherboard": "Z790 apex encore",
       "GPU": "RTX 4080 super 16GB",
       "RAM": "64GB DDR5 8800MHz G.Skill Trident Z5",
+      "homeFeatured": true,
       "Storage": "1TB gen4 NVMe",
       "Cooling": "rog aio",
       "PSU": "rog thor 1200w platnum",
@@ -148,7 +147,7 @@
     "status": "Sold",
     "price": 1350,
     "category": ["gaming"],
-    "featured": true,
+    "featured": false,
     "featuredImage": "images/builds/evolv/evolv-main.jpg",
     "gallery": [
       "images/builds/evolv/evolv-main.jpg",
@@ -257,7 +256,7 @@
     "status": "Sold",
     "price": 2699,
     "category": ["workstation"],
-    "featured": false,
+    "homeFeatured": true,
     "featuredImage": "images/builds/7900xtx/7900xtx-main.jpg",
     "gallery": [
       "images/builds/7900xtx/7900xtx-main.jpg",
