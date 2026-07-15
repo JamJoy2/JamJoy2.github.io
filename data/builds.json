@@ -46,6 +46,53 @@
       "secondary": "Reserve This Build"
     }
   },
+{
+    "id": "3080-i7-laptop-cpu",
+    "name": "i7-13650HX + RTX 3080 Gaming PC",
+    "tagline": "Freshly built 1440p gaming powerhouse with a striking RGB build.",
+    "status": "Available",
+    "price": 1400,
+    "category": ["gaming"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/3080i7laptop/1.jpg",
+    "gallery": [
+      "images/3080i7laptop/1.jpg",
+      "images/3080i7laptop/2.jpg",
+      "images/3080i7laptop/3.jpg",
+      "images/3080i7laptop/4.jpg",
+      "images/3080i7laptop/5.jpg",
+      "images/3080i7laptop/6.jpg",
+      "images/3080i7laptop/7.jpg",
+      "images/3080i7laptop/8.jpg",
+      "images/3080i7laptop/9.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core i7-13650HX (mobile CPU on desktop-form motherboard)",
+      "GPU": "ASUS ROG Strix GeForce RTX 3080 10GB",
+      "RAM": "16GB DDR5-6000MHz RAM",
+      "Motherboard": "B660 chipset motherboard (WiFi 6E, Bluetooth 5.0)",
+      "Storage": "Samsung 240GB SSD (Windows 11 Pro activated)",
+      "PSU": "ASUS ROG Strix Thor II 850W 80+ Platinum PSU",
+      "Cooling": "360mm AIO liquid cooler",
+      "Case": "MSI MAG Pano 10OR (full mesh paneling)",
+      "Extras": "7x RGB fans, fully customisable lighting"
+    },
+    "benchmarks": {},
+    "description": "Freshly and professionally built high-performance system designed for smooth 1440p and competitive 1080p gaming, with plenty of headroom for demanding titles and content creation. Every component has been cleaned, tested, and validated. PC is ready to plug in and immediately start gaming. With the Intel i7 13th gen and RTX 3080 10GB, expect strong 1440p performance at high settings and excellent 1080p high-refresh gaming, plus solid multitasking for streaming and productivity. Cooled by a 360mm AIO with 7x RGB fans for serious airflow and a striking lit-up build, all housed in the MSI MAG Pano 10OR with full mesh paneling for maximum thermals.",
+    "highlights": [
+      "Strong 1440p high-settings performance",
+      "Excellent 1080p high-refresh gaming",
+      "360mm AIO + 7x RGB fans for standout looks and airflow",
+      "Full mesh MSI MAG Pano 10OR case",
+      "Windows 11 Pro activated",
+      "3 months warranty and builder support"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
    {
     "id": "rogstrixloop",
     "name": "rog strix custom loop",
@@ -67,7 +114,7 @@
       "Motherboard": "Z790 apex encore",
       "GPU": "RTX 4080 super 16GB",
       "RAM": "64GB DDR5 8800MHz G.Skill Trident Z5",
-      "homeFeatured": true,
+      "homeFeatured": false,
       "Storage": "1TB gen4 NVMe",
       "Cooling": "rog aio",
       "PSU": "rog thor 1200w platnum",
