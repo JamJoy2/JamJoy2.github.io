@@ -98,27 +98,32 @@
     "name": "rog strix custom loop",
     "tagline": "Custom showcase system. Sleeved custom liquid cooling loop ",
     "status": "In-Progress",
-    "price": 3250,
+    "price": 3600,
     "category": ["custom", "highend"],
     "featured": true,
     "featuredImage": "images/builds/marathon-main.jpg",
     "gallery": [
-      "images/builds/marathon-main.jpg",
-      "images/builds/marathon-side.jpg",
-      "images/builds/marathon-cables.jpg",
-      "images/builds/marathon-rgb.jpg"
+      "images/builds/rogstrixloop/1",
+      "images/builds/rogstrixloop/2",
+      "images/builds/rogstrixloop/3",
+      "images/builds/rogstrixloop/4",
+      "images/builds/rogstrixloop/5",
+      "images/builds/rogstrixloop/6",
+      "images/builds/rogstrixloop/7",
+      "images/builds/rogstrixloop/8",
+      "images/builds/rogstrixloop/9"
     ],
     
     "specs": {
-      "CPU": "intel i9 14900kf (12c/24t)",
-      "Motherboard": "Z790 apex encore",
-      "GPU": "RTX 4080 super 16GB",
-      "RAM": "64GB DDR5 8800MHz G.Skill Trident Z5",
-      "homeFeatured": false,
-      "Storage": "1TB gen4 NVMe",
-      "Cooling": "rog aio",
-      "PSU": "rog thor 1200w platnum",
-      "Case": "rog case",
+      "CPU": "intel i9 14900k (12c/24t)",
+      "Motherboard": "ASUS ROG Strix Z790 Apex Encore",
+      "GPU": "Inno3D iChill RTX 4080 Super 16GB",
+      "RAM": "48GB DDR5 8800MHz G.Skill Trident Z5",
+      "homeFeatured": true,
+      "Storage": " 1TB samsung 980 NVMe ",
+      "Cooling": "ASUS ROG Ryujin III AIO",
+      "PSU": "ROG Thor 1200W Platinum PSU",
+      "Case": " ROG Hyperion case",
       "OS": "Windows 11 Pro"
     },
     "benchmarks": {
@@ -127,12 +132,12 @@
       "3DMark Time Spy": "22,100",
       "FurMark (1440p)": "Stable — 72°C GPU max"
     },
-    "description": " James' personal showcase build, nothing compromised. Custom sleeved cables, 3D printed fan grills, and a custom paint scheme make this one of a kind. It's been benchmarked end to end and is ready to go.",
+    "description": " freshly built on 21/07/2026  Every component has been cleaned, stress-tested, and professionally repasted for optimal thermals. This build features a brand-new custom water loop on the GPU with fully custom-sleeved tubing. PC is ready to plug in and immediately start gaming. With the i9-14900K and RTX 4080 Super 16GB, expect native 4K 60fps performance across modern titles, with plenty of headroom for high-refresh 1440p, streaming, content creation, and serious workstation tasks. Clean cable routing and a custom-sleeved loop keep things low-clutter, and the ROG Ryujin III AIO plus dedicated fan setup delivers exceptional thermals with quiet operation under full load. Temps are excellent, the GPU stays locked under 60°C at 100% load during benchmarking, and with the AIO on the CPU and the custom gpu loop running, the system stays whisper-quiet even under full load.",
     "highlights": [
-      "Custom sleeved cable extensions (white/black)",
-      "3D printed custom fan grills",
+      "Custom sleeved soft tubing (black)",
+      "3D printed res mount",
       "Full stress tested — FurMark + Cinebench",
-      "64GB DDR5 running at rated 6000MHz XMP",
+      "48GB DDR5 running at rated 8800MHz XMP",
       "WiFi 6E + Bluetooth 5.3 onboard",
       "Clean cable routing, zero loose cables"
     ],
