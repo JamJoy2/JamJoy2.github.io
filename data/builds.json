@@ -24,14 +24,15 @@
       "Extras": "8x RGB fans"
     },
     "benchmarks": {},
-    "description": "A 7800X3D and an RX 9070 XT 16GB in a build that doesn't take over your desk. The O11 Dynamic Mini keeps the footprint small, a 1000W SFX PSU leaves plenty of headroom, and a 360mm H150i Elite with eight RGB fans keeps it cool. Built for high-refresh 1440p and 4K gaming. Currently being built, details and photos to follow.",
+    "description": "A 7800X3D and an RX 9070 XT 16GB in a build that doesn't take up too much space on your desk. The O11 Dynamic Mini keeps the footprint small, a 1000W SFX PSU leaves plenty of headroom for future upgrades, and a 360mm H150i Elite with eight RGB fans keeps it cool. Built for high-refresh 1440p and 4K gaming. Currently being built, details and photos to follow.",
     "highlights": [
       "Ryzen 7 7800X3D, one of the fastest gaming CPUs available",
       "RX 9070 XT 16GB for high-refresh 1440p and 4K",
       "32GB DDR5 6400MHz CL38",
       "360mm Corsair H150i Elite AIO",
       "Compact Lian Li O11 Dynamic Mini with 8x RGB fans",
-      "1000W SFX PSU"
+      "1000W SFX PSU",
+      "custom 3d printed parts"
     ],
     "cta": {
       "primary": "Enquire About This Build",
