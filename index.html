@@ -128,29 +128,17 @@
           <div style="width:100%;max-width:380px;position:relative;">
             <!-- Decorative spec card -->
             <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:16px;padding:28px;position:relative;z-index:2;">
+              <!-- Filled from data/builds.json by main.js (first home-featured build that isn't sold) -->
               <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
-                <div style="width:10px;height:10px;border-radius:50%;background:#3DAA6E;"></div>
-                <span style="font-size:var(--text-xs);color:#3DAA6E;font-family:'JetBrains Mono',monospace;"> Available</span>
+                <div id="heroBuildDot" style="width:10px;height:10px;border-radius:50%;background:#3DAA6E;"></div>
+                <span id="heroBuildStatus" style="font-size:var(--text-xs);color:#3DAA6E;font-family:'JetBrains Mono',monospace;">Available</span>
               </div>
-              <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;margin-bottom:4px;">Marathon Build</div>
-              <div style="font-size:var(--text-xs);color:var(--text-muted);margin-bottom:20px;">Custom showcase system</div>
-                          <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
-                  <i class="bi bi-cpu" style="color:var(--accent);width:16px;"></i> Ryzen 9 7900X
-                </div>    <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;">
-
-                <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
-                  <i class="bi bi-gpu-card" style="color:var(--accent);width:16px;"></i> RTX 5070 Ti 16GB
-                </div>
-                <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
-                  <i class="bi bi-memory" style="color:var(--accent);width:16px;"></i> 64GB DDR5 6000MHz
-                </div>
-                <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
-                  <i class="bi bi-device-ssd" style="color:var(--accent);width:16px;"></i> 2TB NVMe SSD
-                </div>
-              </div>
+              <div id="heroBuildName" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;margin-bottom:4px;">Custom Builds</div>
+              <div id="heroBuildTagline" style="font-size:var(--text-xs);color:var(--text-muted);margin-bottom:20px;">Built, benchmarked and ready to go</div>
+              <div id="heroBuildSpecs" style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid var(--border);">
-                <span style="font-family:'JetBrains Mono',monospace;font-size:1.4rem;color:var(--text-primary);">$2,799</span>
-                <a href="builds.html" style="color:var(--accent);font-size:var(--text-sm);font-weight:600;display:flex;align-items:center;gap:6px;">
+                <span id="heroBuildPrice" style="font-family:'JetBrains Mono',monospace;font-size:1.4rem;color:var(--text-primary);"></span>
+                <a id="heroBuildLink" href="builds.html" style="color:var(--accent);font-size:var(--text-sm);font-weight:600;display:flex;align-items:center;gap:6px;">
                   View <i class="bi bi-arrow-right"></i>
                 </a>
               </div>

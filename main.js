@@ -75,6 +75,40 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
   };
 
+  // Hero spec card: show the first home-featured build that isn't sold
+  const heroStatusColors = {
+    'Available':   '#3DAA6E',
+    'In-Progress': '#f59e0b',
+    'Reserved':    '#E05252'
+  };
+
+  const fillHeroBuildCard = (builds) => {
+    const nameEl = document.getElementById('heroBuildName');
+    if (!nameEl) return;
+
+    const build = builds.find(b => b.homeFeatured && b.status !== 'Sold' && b.status !== 'Archived');
+    if (!build) return;
+
+    const color = heroStatusColors[build.status] || '#3DAA6E';
+    const statusEl = document.getElementById('heroBuildStatus');
+    statusEl.textContent = build.status === 'In-Progress' ? 'Coming soon' : build.status;
+    statusEl.style.color = color;
+    document.getElementById('heroBuildDot').style.background = color;
+
+    nameEl.textContent = build.name;
+    document.getElementById('heroBuildTagline').textContent = build.tagline || '';
+    document.getElementById('heroBuildPrice').textContent = build.price ? formatPrice(build.price) : '';
+    document.getElementById('heroBuildLink').href = `build.html?id=${encodeURIComponent(build.id)}`;
+
+    document.getElementById('heroBuildSpecs').innerHTML = ['CPU', 'GPU', 'RAM', 'Storage']
+      .filter(key => build.specs && build.specs[key])
+      .map(key => `
+        <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
+          <i class="bi ${buildIcons[key]}" style="color:var(--accent);width:16px;"></i> ${build.specs[key]}
+        </div>`)
+      .join('');
+  };
+
   const initHomeFeaturedBuilds = async () => {
     const homeCarouselInner = document.getElementById('homeFeaturedCarouselInner');
     if (!homeCarouselInner) return;
@@ -84,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!response.ok) throw new Error('Failed to load builds.json');
 
       const builds = await response.json();
+      fillHeroBuildCard(builds);
       const homeBuilds = builds.filter(build => build.homeFeatured).slice(0, 3);
       const fallbackBuilds = builds.filter(build => build.featured).slice(0, 3);
       const selectedBuilds = homeBuilds.length ? homeBuilds : fallbackBuilds;
