@@ -1,5 +1,139 @@
 [
-   {
+  {
+    "id": "7800x3d-9070xt-o11mini",
+    "name": "7800X3D + RX 9070 XT Compact Build",
+    "tagline": "Coming soon. Top-tier gaming CPU and a 16GB RX 9070 XT in a compact O11 Dynamic Mini.",
+    "status": "In-Progress",
+    "price": 3000,
+    "category": ["gaming", "highend"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/7800x3d-9070xt-o11mini/1.jpg",
+    "gallery": [
+      "images/builds/7800x3d-9070xt-o11mini/1.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D (8c/16t)",
+      "Motherboard": "Gigabyte X870 AORUS",
+      "GPU": "AMD Radeon RX 9070 XT 16GB",
+      "RAM": "32GB DDR5 6400MHz CL38",
+      "Storage": "1TB Samsung 980 Pro NVMe",
+      "Cooling": "Corsair iCUE H150i Elite 360mm AIO",
+      "PSU": "1000W SFX PSU",
+      "Case": "Lian Li O11 Dynamic Mini (new)",
+      "Extras": "8x RGB fans"
+    },
+    "benchmarks": {},
+    "description": "A 7800X3D and an RX 9070 XT 16GB in a build that doesn't take over your desk. The O11 Dynamic Mini keeps the footprint small, a 1000W SFX PSU leaves plenty of headroom, and a 360mm H150i Elite with eight RGB fans keeps it cool. Built for high-refresh 1440p and 4K gaming. Currently being built, details and photos to follow.",
+    "highlights": [
+      "Ryzen 7 7800X3D, one of the fastest gaming CPUs available",
+      "RX 9070 XT 16GB for high-refresh 1440p and 4K",
+      "32GB DDR5 6400MHz CL38",
+      "360mm Corsair H150i Elite AIO",
+      "Compact Lian Li O11 Dynamic Mini with 8x RGB fans",
+      "1000W SFX PSU"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "sff-watercooled-dan-a3",
+    "name": "Custom Watercooled SFF PC",
+    "tagline": "Compact custom hardline loop in a Lian Li DAN A3. Small, cool and quiet.",
+    "status": "Available",
+    "price": 1500,
+    "category": ["custom", "gaming"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/sff-watercooled-dan-a3/1.jpg",
+    "gallery": [
+      "images/builds/sff-watercooled-dan-a3/1.jpg",
+      "images/builds/sff-watercooled-dan-a3/2.jpg",
+      "images/builds/sff-watercooled-dan-a3/3.jpg",
+      "images/builds/sff-watercooled-dan-a3/4.jpg",
+      "images/builds/sff-watercooled-dan-a3/5.jpg",
+      "images/builds/sff-watercooled-dan-a3/6.jpg",
+      "images/builds/sff-watercooled-dan-a3/7.jpg",
+      "images/builds/sff-watercooled-dan-a3/8.jpg",
+      "images/builds/sff-watercooled-dan-a3/9.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core i7-12700H (mobile CPU on desktop-form motherboard)",
+      "Motherboard": "B660 motherboard (CPU combo)",
+      "GPU": "ASUS TUF RTX 3080 10GB + EK waterblock",
+      "RAM": "32GB DDR4 3200MHz low profile (new)",
+      "Storage": "1TB NVMe SSD",
+      "Cooling": "Custom hardline loop: EK Quantum 360mm rad, Bykski pump/res + LGA1700 CPU block",
+      "PSU": "MSI 1000W 80+ Gold",
+      "Case": "Lian Li DAN A3 (new)",
+      "Extras": "7x new 120mm fans"
+    },
+    "benchmarks": {},
+    "description": "Built to be small, cool and quiet without giving up performance. The Lian Li DAN A3 is one of the smallest cases that still takes an ATX PSU and mATX board, and this one runs a freshly built, fully custom hardline loop: Bykski compression fittings, EK 45° and 90° fittings, an EK Quantum 360mm radiator, a new Bykski pump/res and LGA1700 CPU block, and an EK waterblock on the RTX 3080. The case has no proper pump/res mount in this layout, so I designed and 3D printed a PETG bracket that mounts it cleanly to a 120mm fan. It's one of one. Seven new 120mm fans keep the airflow strong despite the size.",
+    "highlights": [
+      "Fully custom hardline water loop (CPU + GPU)",
+      "Custom-designed 3D printed PETG pump/res bracket",
+      "RTX 3080 10GB on an EK waterblock",
+      "32GB DDR4 3200MHz (new)",
+      "Tiny Lian Li DAN A3 footprint",
+      "Happy to show it running on pickup"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "3700x-3070-king95",
+    "name": "Ryzen 7 3700X + RTX 3070 Gaming PC",
+    "tagline": "Clean custom build in the limited-run Montech King 95 with an LCD AIO and infinity mirror fans.",
+    "status": "Available",
+    "price": 1350,
+    "category": ["gaming"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/3700x-3070-king95/1.jpg",
+    "gallery": [
+      "images/builds/3700x-3070-king95/1.jpg",
+      "images/builds/3700x-3070-king95/2.jpg",
+      "images/builds/3700x-3070-king95/3.jpg",
+      "images/builds/3700x-3070-king95/4.jpg",
+      "images/builds/3700x-3070-king95/5.jpg",
+      "images/builds/3700x-3070-king95/6.jpg",
+      "images/builds/3700x-3070-king95/7.jpg",
+      "images/builds/3700x-3070-king95/8.jpg",
+      "images/builds/3700x-3070-king95/9.jpg",
+      "images/builds/3700x-3070-king95/10.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 7 3700X (8c/16t)",
+      "Motherboard": "MSI MAG X570S Tomahawk MAX WiFi (WiFi + Bluetooth)",
+      "GPU": "Zotac RTX 3070 8GB OC",
+      "RAM": "32GB DDR4 3200MHz CL16 (new)",
+      "Storage": "256GB NVMe SSD",
+      "Cooling": "Sudoroo Prometheus 360mm LCD AIO (new)",
+      "PSU": "Corsair 750W RGB 80+ Gold",
+      "Case": "Montech King 95 (limited to 2024 units worldwide, new)",
+      "Extras": "6x infinity mirror ARGB fans (new)"
+    },
+    "benchmarks": {},
+    "description": "Clean custom build with a mix of new and used parts, fully assembled and stress-tested stable. Great for 1080p and 1440p gaming, streaming and everyday use. It sits in a Montech King 95, limited to 2024 units worldwide, with a 360mm LCD AIO and six infinity mirror fans. Runs cool and quiet, with cable management done properly and no shortcuts. A 1080p 144Hz monitor (one dead pixel) and a Basilisk V3 Pro mouse (wired/Bluetooth only) can be included at the asking price.",
+    "highlights": [
+      "Stress-tested stable under load",
+      "Limited-run Montech King 95 case (new)",
+      "360mm LCD AIO + 6x infinity mirror ARGB fans (new)",
+      "32GB DDR4 3200MHz CL16 (new)",
+      "WiFi + Bluetooth onboard",
+      "Monitor and mouse can be included"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
     "id": "rogstrixloop",
     "name": "ROG strix custom loop",
     "tagline": "Custom showcase system. Sleeved custom liquid cooling loop ",
@@ -26,7 +160,6 @@
       "Motherboard": "ASUS ROG Strix Z790 Apex Encore",
       "GPU": "Inno3D iChill RTX 4080 Super 16GB",
       "RAM": "48GB DDR5 8800MHz G.Skill Trident Z5",
-      "homeFeatured": true,
       "Storage": " 1TB samsung 980 NVMe ",
       "Cooling": "ASUS ROG Ryujin III AIO",
       "PSU": "ROG Thor 1200W Platinum PSU",
@@ -39,7 +172,7 @@
       "3DMark Time Spy": "22,100",
       "FurMark (1440p)": "Stable — 72°C GPU max"
     },
-    "description": " freshly built on 21/07/2026  Every component has been cleaned, stress-tested, and professionally repasted for optimal thermals. This build features a brand-new custom water loop on the GPU with fully custom-sleeved tubing. PC is ready to plug in and immediately start gaming. With the i9-14900K and RTX 4080 Super 16GB, expect native 4K 60fps performance across modern titles, with plenty of headroom for high-refresh 1440p, streaming, content creation, and serious workstation tasks. Clean cable routing and a custom-sleeved loop keep things low-clutter, and the ROG Ryujin III AIO plus dedicated fan setup delivers exceptional thermals with quiet operation under full load. Temps are excellent, the GPU stays locked under 60°C at 100% load during benchmarking, and with the AIO on the CPU and the custom gpu loop running, the system stays whisper-quiet even under full load.",
+    "description": "Built 21/07/2026. i9-14900K and an RTX 4080 Super 16GB, with a custom soft-tube loop over the GPU — sleeved tubing, 3D-printed res mount. Native 4K60 in modern titles and plenty left for high-refresh 1440p and editing. The loop earns its place: the GPU stays under 60°C at 100% load in benchmarking and the noise floor barely moves. 48GB DDR5 at the rated 8800MHz. Repasted and stress-tested with FurMark and Cinebench before it went out.",
     "highlights": [
       "Custom sleeved soft tubing (black)",
       "3D printed res mount",
@@ -133,7 +266,7 @@
       "Extras": "7x RGB fans, fully customisable lighting"
     },
     "benchmarks": {},
-    "description": "Freshly and professionally built high-performance system designed for smooth 1440p and competitive 1080p gaming, with plenty of headroom for demanding titles and content creation. Every component has been cleaned, tested, and validated. PC is ready to plug in and immediately start gaming. With the Intel i7 13th gen and RTX 3080 10GB, expect strong 1440p performance at high settings and excellent 1080p high-refresh gaming, plus solid multitasking for streaming and productivity. Cooled by a 360mm AIO with 7x RGB fans for serious airflow and a striking lit-up build, all housed in the MSI MAG Pano 10OR with full mesh paneling for maximum thermals.",
+    "description": "The CPU here is an i7-13650HX — a laptop chip on a desktop-form board. Odd on paper, but it's 14 cores, it's cheap for what it does, and next to the RTX 3080 10GB it runs 1440p high and 1080p high-refresh without complaint. 16GB DDR5-6000, 360mm AIO and seven RGB fans in an MSI MAG Pano 10OR — full mesh, so it stays cool and it looks the part on a desk. Windows 11 Pro activated, three months warranty. Ask me about the CPU choice on pickup; it's the first thing everyone does.",
     "highlights": [
       "Strong 1440p high-settings performance",
       "Excellent 1080p high-refresh gaming",
@@ -180,7 +313,7 @@
       "Extras": "2x Noctua 140mm + 1x Noctua 120mm fans"
     },
     "benchmarks": {},
-    "description": "Freshly built performance-focused gaming and workstation PC, backed by three months of peace-of-mind warranty and ongoing builder support. Every component has been cleaned, stress-tested, and professionally repasted for optimal thermals. PC is ready to plug in and immediately start gaming. With the i5-12400 and RTX 3080 10GB, expect 144+ FPS at 1080p on high settings, strong 1440p performance with ray tracing enabled, and plenty of headroom for streaming, content creation, and workstation tasks. Clean cable routing on both front and back panels keeps things low-clutter and easy to maintain, and the premium Noctua fan setup delivers exceptional thermals with quiet operation under full load.",
+    "description": "i5-12400 and an RTX 3080 10GB. It's a 1080p high-refresh machine first — 144+ FPS on high in most things — and it still holds up at 1440p with ray tracing on. 32GB of DDR4 and the Samsung 980 NVMe (99% health on CrystalDiskInfo) leave room for editing and streaming on the side. Corsair 4000D Airflow with three Noctua fans, so it's quiet under load rather than just sold as quiet. Cabled front and back. Repasted and stress-tested before sale, three months warranty, and I'll walk you through it on pickup.",
     "highlights": [
       "144+ FPS 1080p high settings",
       "Strong 1440p + ray tracing performance",
