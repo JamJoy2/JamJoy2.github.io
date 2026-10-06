@@ -8,19 +8,19 @@
     "category": ["gaming", "highend"],
     "featured": true,
     "homeFeatured": true,
-    "featuredImage": "images/builds/3700x-3070-king95/1.jpg",
+    
     "gallery": [
-      "images/builds/3700x-3070-king95/1.jpg"
+      
     ],
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D (8c/16t)",
-      "Motherboard": "Gigabyte X870 AORUS",
-      "GPU": "AMD Radeon RX 9070 XT 16GB",
+      "Motherboard": "Gigabyte X870 AORUS ICE ",
+      "GPU": "AMD Sappire Pulse Radeon RX 9070 XT 16GB",
       "RAM": "32GB DDR5 6400MHz CL38",
       "Storage": "1TB Samsung 980 Pro NVMe",
       "Cooling": "Corsair iCUE H150i Elite 360mm AIO",
       "PSU": "1000W SFX PSU",
-      "Case": "Lian Li O11 Dynamic Mini (new)",
+      "Case": "Lian Li O11 Dynamic Mini (new) black ",
       "Extras": "8x RGB fans"
     },
     "benchmarks": {},
