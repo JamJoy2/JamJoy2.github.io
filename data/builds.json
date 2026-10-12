@@ -2,37 +2,46 @@
   {
     "id": "7800x3d-9070xt-o11mini",
     "name": "7800X3D + RX 9070 XT Compact Build",
-    "tagline": "Coming soon. Top-tier gaming CPU and a 16GB RX 9070 XT in a compact O11 Dynamic Mini.",
-    "status": "In-Progress",
-    "price": 3000,
+    "tagline": "Top-tier gaming CPU and a 16GB RX 9070 XT in a compact O11 Dynamic Mini, with full 360mm LCD AIO cooling.",
+    "status": "Sold",
+    "price": 2750,
     "category": ["gaming", "highend"],
-    "featured": true,
-    "homeFeatured": true,
-    
+    "featured": false,
+    "homeFeatured": false,
+    "featuredImage": "images/builds/7800x3d-9070xt-o11mini/1.jpg",
     "gallery": [
-      
+      "images/builds/7800x3d-9070xt-o11mini/1.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/2.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/3.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/4.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/5.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/6.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/7.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/8.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/9.jpg",
+      "images/builds/7800x3d-9070xt-o11mini/10.jpg"
     ],
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D (8c/16t)",
-      "Motherboard": "Gigabyte X870 AORUS ICE ",
-      "GPU": "AMD Sappire Pulse Radeon RX 9070 XT 16GB",
-      "RAM": "32GB DDR5 6400MHz CL38",
-      "Storage": "1TB Samsung 980 Pro NVMe",
-      "Cooling": "Corsair iCUE H150i Elite 360mm AIO",
-      "PSU": "1000W SFX PSU",
-      "Case": "Lian Li O11 Dynamic Mini (new) black ",
-      "Extras": "8x RGB fans"
+      "Motherboard": "Gigabyte X870 AORUS ICE (white, Wi-Fi 7, AM5)",
+      "GPU": "Sapphire Pulse RX 9070 XT 16GB",
+      "RAM": "32GB Crucial Pro Overclocking DDR5 6400MHz CL38",
+      "Storage": "1TB Samsung 980 Pro NVMe (100% health)",
+      "Cooling": "Corsair iCUE LINK Titan 360 RX LCD AIO + custom 3D-printed radiator brackets",
+      "PSU": "SilverStone 1000W SFX (all extra cables and box included)",
+      "Case": "Lian Li O11 Dynamic Mini (new)",
+      "OS": "Windows 11 Pro (activated)",
+      "Extras": "8x RGB fans (all new)"
     },
     "benchmarks": {},
-    "description": "A 7800X3D and an RX 9070 XT 16GB in a build that doesn't take up too much space on your desk. The O11 Dynamic Mini keeps the footprint small, a 1000W SFX PSU leaves plenty of headroom for future upgrades, and a 360mm H150i Elite with eight RGB fans keeps it cool. Built for high-refresh 1440p and 4K gaming. Currently being built, details and photos to follow.",
+    "description": "Freshly built from used and new parts, with every component cleaned, stress-tested and validated. The Ryzen 7 7800X3D and Sapphire Pulse RX 9070 XT 16GB are a strong combo for 4K and high-refresh 1440p. The O11 Dynamic Mini doesn't support a 360mm radiator by default, so I designed and 3D printed custom spacer brackets to fit the Corsair Titan 360 RX LCD. That gives full 360mm cooling and the LCD pump in a much smaller case. No cheap supporting parts either: an X870 board, a 1000W SFX PSU and a Samsung 980 Pro.",
     "highlights": [
-      "Ryzen 7 7800X3D, one of the fastest gaming CPUs available",
-      "RX 9070 XT 16GB for high-refresh 1440p and 4K",
-      "32GB DDR5 6400MHz CL38",
-      "360mm Corsair H150i Elite AIO",
-      "Compact Lian Li O11 Dynamic Mini with 8x RGB fans",
-      "1000W SFX PSU",
-      "custom 3d printed parts"
+      "Ryzen 7 7800X3D + Sapphire Pulse RX 9070 XT 16GB",
+      "Custom 3D-printed brackets to fit a 360mm AIO in the O11 Mini",
+      "Corsair Titan 360 RX LCD AIO",
+      "X870 AORUS ICE with Wi-Fi 7 and AM5 upgrade path",
+      "SilverStone 1000W SFX PSU",
+      "8x new RGB fans"
     ],
     "cta": {
       "primary": "Enquire About This Build",
@@ -43,11 +52,11 @@
     "id": "sff-watercooled-dan-a3",
     "name": "Custom Watercooled SFF PC",
     "tagline": "Compact custom hardline loop in a Lian Li DAN A3. Small, cool and quiet.",
-    "status": "Available",
+    "status": "Sold",
     "price": 1500,
     "category": ["custom", "gaming"],
-    "featured": true,
-    "homeFeatured": true,
+    "featured": false,
+    "homeFeatured": false,
     "featuredImage": "images/builds/sff-watercooled-dan-a3/1.jpg",
     "gallery": [
       "images/builds/sff-watercooled-dan-a3/1.jpg",
@@ -128,6 +137,88 @@
       "32GB DDR4 3200MHz CL16 (new)",
       "WiFi + Bluetooth onboard",
       "Monitor and mouse can be included"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "7800x3d-4070tis-antec",
+    "name": "Ryzen 7 7800X3D + RTX 4070 Ti Super Gaming PC",
+    "tagline": "Almost entirely brand new parts. High-refresh 1440p and 4K with DLSS.",
+    "status": "Available",
+    "price": 3100,
+    "category": ["gaming", "highend"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/7800x3d-4070tis-antec/1.jpg",
+    "gallery": [
+      "images/builds/7800x3d-4070tis-antec/1.jpg",
+      "images/builds/7800x3d-4070tis-antec/2.jpg",
+      "images/builds/7800x3d-4070tis-antec/3.jpg",
+      "images/builds/7800x3d-4070tis-antec/4.jpg",
+      "images/builds/7800x3d-4070tis-antec/5.jpg",
+      "images/builds/7800x3d-4070tis-antec/6.jpg",
+      "images/builds/7800x3d-4070tis-antec/7.jpg",
+      "images/builds/7800x3d-4070tis-antec/8.jpg",
+      "images/builds/7800x3d-4070tis-antec/9.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D (8c/16t, new)",
+      "Motherboard": "Gigabyte B850 Eagle AM5 (new)",
+      "GPU": "ASUS TUF RTX 4070 Ti Super 16GB GDDR6X (used, like new)",
+      "RAM": "32GB Corsair Vengeance RGB DDR5 5200MHz (new)",
+      "Storage": "2TB Crucial P3 Gen4 NVMe (new)",
+      "Cooling": "Aftershock 360mm AIO (new)",
+      "PSU": "Antec 1000W 80+ Gold ATX 3.1 (new, all cables and box included)",
+      "Case": "Antec Performance 1 with fans (new)",
+      "Extras": "Lian Li Strimer RGB 24-pin cable (new), GPU riser cable"
+    },
+    "benchmarks": {},
+    "description": "Freshly built with almost entirely brand new parts. The CPU, motherboard, RAM, SSD, AIO, PSU, case, fans and Strimer cable are all new, with receipts for every new part except the case. The only used parts are the GPU and its support bracket, and the GPU is in excellent condition. The 7800X3D is one of the best gaming CPUs ever made, and with the ASUS TUF RTX 4070 Ti Super 16GB it handles high-refresh 1440p easily and 4K with DLSS. 16GB of VRAM means it won't run out of memory in newer games any time soon. You also get an AM5 upgrade path and a 1000W ATX 3.1 PSU with plenty of headroom for a bigger GPU later. Cleaned, stress-tested and validated, ready to plug in and play.",
+    "highlights": [
+      "Almost all new parts, with receipts",
+      "Ryzen 7 7800X3D + RTX 4070 Ti Super 16GB",
+      "AM5 platform with an upgrade path",
+      "1000W ATX 3.1 Gold PSU with headroom for future GPUs",
+      "Lian Li Strimer RGB cable + 360mm AIO",
+      "64GB RAM option available (+$300)"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "12400-6900xt-sup01-loop",
+    "name": "i5-12400 + RX 6900 XT Custom Loop",
+    "tagline": "Full custom GPU loop and a CPU AIO, with 2x 360mm radiators between them. Cool, quiet and looks the part.",
+    "status": "In-Progress",
+    "price": 1650,
+    "category": ["custom", "gaming"],
+    "featured": false,
+    "homeFeatured": false,
+    "featuredImage": "",
+    "gallery": [],
+    "specs": {
+      "CPU": "Intel Core i5-12400 (6c/12t)",
+      "Motherboard": "ASUS Prime B760M-A CSM WiFi DDR4",
+      "GPU": "Gigabyte AORUS RX 6900 XT 16GB WaterForce (waterblock)",
+      "RAM": "32GB DDR4 3200MHz",
+      "Storage": "1TB Samsung 980 NVMe",
+      "Cooling": "Custom GPU loop + CPU AIO, 2x 360mm radiators, new pump/res",
+      "PSU": "ASUS ROG Strix Thor 850W",
+      "Case": "Lian Li SUP 01"
+    },
+    "benchmarks": {},
+    "description": "Currently being built. A full custom water loop on the RX 6900 XT and an AIO on the i5-12400, with two 360mm radiators between them, so it runs cool and quiet and looks great doing it. Lian Li SUP 01 case, brand new pump/res, 32GB DDR4 and a 1TB Samsung 980. Photos and full details to follow.",
+    "highlights": [
+      "Full custom GPU water loop",
+      "2x 360mm radiators (GPU loop + CPU AIO)",
+      "RX 6900 XT 16GB on an AORUS WaterForce block",
+      "Brand new pump/res",
+      "Lian Li SUP 01 case"
     ],
     "cta": {
       "primary": "Enquire About This Build",
