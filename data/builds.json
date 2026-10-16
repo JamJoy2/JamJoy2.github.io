@@ -96,6 +96,53 @@
     }
   },
   {
+    "id": "12400-6900xt-sup01-loop",
+    "name": "i5-12400 + RX 6900 XT Custom Loop",
+    "tagline": "Custom watercooled build in the compact Lian Li SUP-01, with sleeved soft tubing and a fully pressure-tested loop.",
+    "status": "Available",
+    "price": 1650,
+    "category": ["custom", "gaming"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/12400-6900xt-sup01-loop/1.jpg",
+    "gallery": [
+      "images/builds/12400-6900xt-sup01-loop/1.jpg",
+      "images/builds/12400-6900xt-sup01-loop/2.jpg",
+      "images/builds/12400-6900xt-sup01-loop/3.jpg",
+      "images/builds/12400-6900xt-sup01-loop/4.jpg",
+      "images/builds/12400-6900xt-sup01-loop/5.jpg",
+      "images/builds/12400-6900xt-sup01-loop/6.jpg",
+      "images/builds/12400-6900xt-sup01-loop/7.jpg",
+      "images/builds/12400-6900xt-sup01-loop/8.jpg",
+      "images/builds/12400-6900xt-sup01-loop/9.jpg",
+      "images/builds/12400-6900xt-sup01-loop/10.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core i5-12400 (6c/12t)",
+      "GPU": "AMD Radeon RX 6900 XT 16GB (watercooled)",
+      "RAM": "32GB DDR4 3200MHz (new)",
+      "Storage": "1TB Samsung 980 NVMe",
+      "Motherboard": "ASUS Prime B760M-A WiFi DDR4",
+      "Cooling": "Custom GPU loop (new Bykski pump/res, new compression fittings, ModPCx sleeved tubing) + Sudokoo 360mm AIO on the CPU (new)",
+      "PSU": "ASUS ROG Thor 850W",
+      "Case": "Lian Li SUP-01 (new)"
+    },
+    "benchmarks": {},
+    "description": "Freshly built and fully tested custom loop in the Lian Li SUP-01. It looks great and packs serious performance into a compact case. The RX 6900 XT and i5-12400 are both liquid cooled, and it stays very quiet under load. Expect smooth 1440p high/ultra in pretty much anything, strong 1080p high-refresh for competitive games, and capable 4K in most titles with sensible settings. The loop is the main event: custom sleeved tubing, a brand new Bykski pump/res, and all new fittings and loop parts. The only used part is the GPU block, which has been fully flushed and cleaned. The loop was pressure tested and flushed before filling, so it's ready to go. Fitting a custom loop into a case this compact was tricky, which is a big reason you won't see many SUP-01 builds like it.",
+    "highlights": [
+      "Custom GPU water loop with sleeved soft tubing",
+      "Brand new Bykski pump/res and fittings",
+      "Pressure tested and flushed before filling",
+      "Sudokoo 360mm AIO on the CPU",
+      "Compact Lian Li SUP-01 (new)",
+      "WiFi built in"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
     "id": "3700x-3070-king95",
     "name": "Ryzen 7 3700X + RTX 3070 Gaming PC",
     "tagline": "Clean custom build in the limited-run Montech King 95 with an LCD AIO and infinity mirror fans.",
@@ -161,8 +208,7 @@
       "images/builds/7800x3d-4070tis-antec/5.jpg",
       "images/builds/7800x3d-4070tis-antec/6.jpg",
       "images/builds/7800x3d-4070tis-antec/7.jpg",
-      "images/builds/7800x3d-4070tis-antec/8.jpg",
-      "images/builds/7800x3d-4070tis-antec/9.jpg"
+      "images/builds/7800x3d-4070tis-antec/8.jpg"
     ],
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D (8c/16t, new)",
@@ -184,41 +230,6 @@
       "1000W ATX 3.1 Gold PSU with headroom for future GPUs",
       "Lian Li Strimer RGB cable + 360mm AIO",
       "64GB RAM option available (+$300)"
-    ],
-    "cta": {
-      "primary": "Enquire About This Build",
-      "secondary": "Reserve This Build"
-    }
-  },
-  {
-    "id": "12400-6900xt-sup01-loop",
-    "name": "i5-12400 + RX 6900 XT Custom Loop",
-    "tagline": "Full custom GPU loop and a CPU AIO, with 2x 360mm radiators between them. Cool, quiet and looks the part.",
-    "status": "In-Progress",
-    "price": 1650,
-    "category": ["custom", "gaming"],
-    "featured": false,
-    "homeFeatured": false,
-    "featuredImage": "",
-    "gallery": [],
-    "specs": {
-      "CPU": "Intel Core i5-12400 (6c/12t)",
-      "Motherboard": "ASUS Prime B760M-A CSM WiFi DDR4",
-      "GPU": "Gigabyte AORUS RX 6900 XT 16GB WaterForce (waterblock)",
-      "RAM": "32GB DDR4 3200MHz",
-      "Storage": "1TB Samsung 980 NVMe",
-      "Cooling": "Custom GPU loop + CPU AIO, 2x 360mm radiators, new pump/res",
-      "PSU": "ASUS ROG Strix Thor 850W",
-      "Case": "Lian Li SUP 01"
-    },
-    "benchmarks": {},
-    "description": "Currently being built. A full custom water loop on the RX 6900 XT and an AIO on the i5-12400, with two 360mm radiators between them, so it runs cool and quiet and looks great doing it. Lian Li SUP 01 case, brand new pump/res, 32GB DDR4 and a 1TB Samsung 980. Photos and full details to follow.",
-    "highlights": [
-      "Full custom GPU water loop",
-      "2x 360mm radiators (GPU loop + CPU AIO)",
-      "RX 6900 XT 16GB on an AORUS WaterForce block",
-      "Brand new pump/res",
-      "Lian Li SUP 01 case"
     ],
     "cta": {
       "primary": "Enquire About This Build",
