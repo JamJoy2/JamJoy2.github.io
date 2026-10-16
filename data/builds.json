@@ -1,7 +1,7 @@
 [
   {
     "id": "x3d-4080-waterforce-7000x",
-    "name": "Ryzen X3D + RTX 4080 Custom Loop",
+    "name": "Ryzen X3D + RTX 4080 Custom sleeved Loop",
     "tagline": "Coming soon. Black and white high-end build with a custom sleeved GPU loop.",
     "status": "In-Progress",
     "price": 3500,
@@ -11,7 +11,7 @@
     "featuredImage": "",
     "gallery": [],
     "specs": {
-      "CPU": "AMD Ryzen X3D (model TBC)",
+      "CPU": "AMD Ryzen 7 7800 X3D ",
       "GPU": "Gigabyte AORUS RTX 4080 16GB WaterForce",
       "RAM": "32GB G.Skill Trident Z5 Neo DDR5 6400MHz CL32 (silver)",
       "Storage": "1TB NVMe SSD",
