@@ -1,5 +1,41 @@
 [
   {
+    "id": "x3d-4080-waterforce-7000x",
+    "name": "Ryzen X3D + RTX 4080 Custom Loop",
+    "tagline": "Coming soon. Black and white high-end build with a custom sleeved GPU loop.",
+    "status": "In-Progress",
+    "price": 3500,
+    "category": ["custom", "gaming", "highend"],
+    "featured": false,
+    "homeFeatured": false,
+    "featuredImage": "",
+    "gallery": [],
+    "specs": {
+      "CPU": "AMD Ryzen X3D (model TBC)",
+      "GPU": "Gigabyte AORUS RTX 4080 16GB WaterForce",
+      "RAM": "32GB G.Skill Trident Z5 Neo DDR5 6400MHz CL32 (silver)",
+      "Storage": "1TB NVMe SSD",
+      "Motherboard": "Gigabyte X870 AORUS Elite",
+      "Cooling": "Custom sleeved GPU loop: EK Surface P360 radiator (new), Corsair iCUE LINK XD5 RGB Elite pump/res (white, new), new fittings and tubing + AORUS 360mm AIO on the CPU",
+      "PSU": "Gigabyte AI TOP UD1600PM 1600W 80+ Platinum ATX 3.1",
+      "Case": "Corsair 7000X"
+    },
+    "benchmarks": {},
+    "description": "Currently being built. A black and white themed high-end build in a Corsair 7000X, with a custom sleeved water loop on the AORUS RTX 4080 WaterForce. The loop runs a new EK Surface P360 radiator and a white Corsair XD5 RGB Elite pump/res, while a 360mm AORUS AIO cools the X3D CPU. 32GB of G.Skill Trident Z5 Neo DDR5 at 6400MHz CL32 and a 1600W Platinum ATX 3.1 PSU round it out. Photos and full details to follow.",
+    "highlights": [
+      "Custom sleeved GPU water loop",
+      "RTX 4080 16GB on an AORUS WaterForce block",
+      "Black and white theme in a Corsair 7000X",
+      "EK Surface P360 rad + Corsair XD5 RGB Elite pump/res (new)",
+      "32GB DDR5 6400MHz CL32",
+      "1600W Platinum ATX 3.1 PSU"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
     "id": "7800x3d-9070xt-o11mini",
     "name": "7800X3D + RX 9070 XT Compact Build",
     "tagline": "Top-tier gaming CPU and a 16GB RX 9070 XT in a compact O11 Dynamic Mini, with full 360mm LCD AIO cooling.",
