@@ -1,0 +1,30 @@
+# James Builds
+
+> Custom gaming and workstation PCs built and stress tested by James in Docklands, Melbourne, Australia. Also PC repairs, hardware upgrades, custom water cooling and bulk buyback of business IT equipment. Pickup in Docklands. ABN 28 809 354 629.
+
+## Builds for sale
+- [Ryzen 7 7800X3D + RTX 4080 Custom Sleeved Loop](https://www.jamesbuilds.tech/builds/x3d-4080-waterforce-7000x/): $3,800, Available. Black and white custom loop build. High-refresh 1440p maxed out and smooth 4K, cool and quiet under full load.
+- [HP OMEN 45L — Core Ultra 7 265K + RTX 4080](https://www.jamesbuilds.tech/builds/hp-omen-265k-4080/): $3,000, Available. Upgraded HP OMEN 45L with a ROG Strix RTX 4080 and 32GB DDR5. 4K high to ultra and high-refresh 1440p, with the 360mm AIO in its own Cryo Chamber.
+- [Alienware Aurora R8 — RTX 2070 Super](https://www.jamesbuilds.tech/builds/alienware-r8-2070s/): $650, Available. Freshly serviced Alienware Aurora R8 with an RTX 2070 Super. A capable 1080p gaming PC with fresh paste and a clean Windows 11 Pro install.
+
+## Pages
+- [All builds, including sold ones](https://www.jamesbuilds.tech/builds.html)
+- [Services and prices](https://www.jamesbuilds.tech/services.html)
+- [Business bulk buyback](https://www.jamesbuilds.tech/business-buyback.html)
+- [Build log](https://www.jamesbuilds.tech/blog.html)
+- [Contact and quotes](https://www.jamesbuilds.tech/contact.html)
+
+## Past builds
+- [Ryzen 9 5900X + RTX 3080 Open-Frame Build](https://www.jamesbuilds.tech/builds/5900x-3080-x570/): $1,400, Sold. Ryzen 9 5900X and a Gainward Phantom RTX 3080 in a brand new Thermaltake Core P3 open-frame case. Built to be shown off, on a desk or on the wall.
+- [7800X3D + RX 9070 XT Compact Build](https://www.jamesbuilds.tech/builds/7800x3d-9070xt-o11mini/): $2,750, Sold. Top-tier gaming CPU and a 16GB RX 9070 XT in a compact O11 Dynamic Mini, with full 360mm LCD AIO cooling.
+- [Custom Watercooled SFF PC](https://www.jamesbuilds.tech/builds/sff-watercooled-dan-a3/): $1,500, Sold. Compact custom hardline loop in a Lian Li DAN A3. Small, cool and quiet.
+- [i5-12400 + RX 6900 XT Custom Loop](https://www.jamesbuilds.tech/builds/12400-6900xt-sup01-loop/): $1,650, Sold. Custom watercooled build in the compact Lian Li SUP-01, with sleeved soft tubing and a fully pressure-tested loop.
+- [Ryzen 7 3700X + RTX 3070 Gaming PC](https://www.jamesbuilds.tech/builds/3700x-3070-king95/): $1,350, Sold. Clean custom build in the limited-run Montech King 95 with an LCD AIO and infinity mirror fans.
+- [Ryzen 7 7800X3D + RTX 4070 Ti Super Gaming PC](https://www.jamesbuilds.tech/builds/7800x3d-4070tis-antec/): $3,100, Sold. Almost entirely brand new parts. High-refresh 1440p and 4K with DLSS.
+- [ROG strix custom loop](https://www.jamesbuilds.tech/builds/rogstrixloop/): $3,600, Sold. Custom showcase system. Sleeved custom liquid cooling loop
+- [i7-13650HX + RTX 3080 Gaming PC](https://www.jamesbuilds.tech/builds/3080-i7-laptop-cpu/): $1,400, Sold. Freshly built 1440p gaming powerhouse with a striking RGB build.
+- [i5-12400 + RTX 3080 Workstation](https://www.jamesbuilds.tech/builds/3080-workstation/): $1,499, Sold. Freshly built performance-focused gaming and workstation PC.
+- [Phanteks Evolv X — 3080 10gb](https://www.jamesbuilds.tech/builds/evolv-3080/): $1,350, Sold. Freshly built. Fully tested. Ready for 1440p.
+- [NZXT Hardline Loop](https://www.jamesbuilds.tech/builds/nzxt-hardline/): $2,000, Sold. custom soft water cooling. One of a kind.
+- [i9 7900xtx workstation](https://www.jamesbuilds.tech/builds/7900xtx-workstation/): $2,699, Sold. 24GB VRAM 64gb ddr5 Sold and delivered.
+- [Threadripper Workstation](https://www.jamesbuilds.tech/builds/threadripper-workstation/): $2,200, Sold. 128GB RAM. 32 cores. No compromises.

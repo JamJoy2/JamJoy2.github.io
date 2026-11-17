@@ -84,7 +84,7 @@ function buildMiniCard(build) {
     .join('');
 
   // CTA — sold builds get "View Sold Build", all others get "View Build"
-  const ctaHref = `build.html?id=${build.id}`;
+  const ctaHref = `builds/${build.id}/`;
   const ctaText = build.status === 'Sold' ? 'View Sold Build' : 'View Build';
 
   // Opacity for sold
@@ -186,9 +186,10 @@ async function initBuildPage() {
 
   if (!buildContent) return; // Not on build page
 
-  // Read ?id= from URL
+  // Generated pages (builds/<id>/) carry the id on <body>; old build.html links use ?id=
   const params = new URLSearchParams(window.location.search);
-  const buildId = params.get('id');
+  const pageBuildId = document.body.dataset.buildId;
+  const buildId = pageBuildId || params.get('id');
 
   function showError() {
     loadingState.style.display = 'none';
@@ -199,13 +200,18 @@ async function initBuildPage() {
 
   try {
     const builds = await fetchBuilds();
-    const build = builds.find(b => b.id === buildId);
+    // oldIds keeps links working after a build's id is renamed
+    const build = builds.find(b => b.id === buildId || (b.oldIds || []).includes(buildId));
 
     if (!build) { showError(); return; }
 
-    // ── Update page meta
-    document.getElementById('pageTitle').textContent = `${build.name} — James Builds`;
-    document.getElementById('metaDesc').setAttribute('content', build.tagline);
+    // Old build.html?id= link: forward to the build's own page
+    if (!pageBuildId) {
+      window.location.replace(`builds/${encodeURIComponent(build.id)}/`);
+      return;
+    }
+
+    // ── Page title + description are written by tools/generate.cs, so only the breadcrumb is set here
     document.getElementById('breadcrumbName').textContent = build.name;
 
     // ── Hero: main image

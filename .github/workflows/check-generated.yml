@@ -1,0 +1,23 @@
+# Fails (red ✗ on GitHub) if builds.json was edited but the generated pages
+# weren't rebuilt. Fix: run `dotnet run tools/generate.cs`, commit, push.
+name: Check generated pages
+
+on: [push, pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - name: Run the generator
+        run: dotnet run tools/generate.cs
+      - name: Make sure nothing changed
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Generated pages are out of date. Run 'dotnet run tools/generate.cs' and commit the result."
+            git status --short
+            exit 1
+          fi

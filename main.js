@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <ul class="build-specs mb-4">${specsHTML}</ul>
                 <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
                   <span class="build-price">${formatPrice(build.price)}</span>
-                  <a href="build.html?id=${build.id}" class="btn-view">View Build <i class="bi bi-arrow-right"></i></a>
+                  <a href="builds/${build.id}/" class="btn-view">View Build <i class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     nameEl.textContent = build.name;
     document.getElementById('heroBuildTagline').textContent = build.tagline || '';
     document.getElementById('heroBuildPrice').textContent = build.price ? formatPrice(build.price) : '';
-    document.getElementById('heroBuildLink').href = `build.html?id=${encodeURIComponent(build.id)}`;
+    document.getElementById('heroBuildLink').href = `builds/${encodeURIComponent(build.id)}/`;
 
     document.getElementById('heroBuildSpecs').innerHTML = ['CPU', 'GPU', 'RAM', 'Storage']
       .filter(key => build.specs && build.specs[key])

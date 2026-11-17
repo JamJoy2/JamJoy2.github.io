@@ -5,6 +5,8 @@
   <link rel="apple-touch-icon" href="favicon.svg">
   
   <meta charset="UTF-8">
+  <link rel="canonical" href="https://www.jamesbuilds.tech/">
+  <meta name="description" content="Custom gaming and workstation PCs built, stress tested and ready for pickup in Docklands, Melbourne. Plus PC repairs, upgrades and business IT buyback.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
   <meta property="og:title" content="James Builds — Custom PCs, Melbourne">
@@ -16,9 +18,15 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "ComputerStore",
+    "@id": "https://www.jamesbuilds.tech/#business",
     "name": "James Builds",
-    "description": "Custom PC building, repairs, and hardware upgrades in Docklands, Melbourne.",
+    "url": "https://www.jamesbuilds.tech/",
+    "description": "Custom gaming and workstation PC builds, PC repairs, hardware upgrades, custom water cooling and business IT buyback in Docklands, Melbourne. Every system is stress tested before sale.",
+    "image": "https://www.jamesbuilds.tech/images/builds/x3d-4080-waterforce-7000x/1.jpg",
+    "email": "xxjamesjoycexx@gmail.com",
+    "taxID": "28 809 354 629",
+    "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Docklands",
@@ -31,10 +39,29 @@
       "latitude": -37.8159,
       "longitude": 144.9469
     },
+    "areaServed": { "@type": "City", "name": "Melbourne" },
     "sameAs": [
       "https://www.facebook.com/marketplace/profile/100070087744715/",
-      "https://www.instagram.com/1millpushups/"
-    ]
+      "https://www.instagram.com/1millpushups/",
+      "https://www.youtube.com/@pcfreak2",
+      "https://www.tiktok.com/@pcfreak"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "PC services",
+      "url": "https://www.jamesbuilds.tech/services.html",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom PC build (labour)" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 150, "priceCurrency": "AUD" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PC repair and diagnostics" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 60, "priceCurrency": "AUD" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hardware upgrade install" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 40, "priceCurrency": "AUD" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "OS install and setup" }, "price": 60, "priceCurrency": "AUD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Cable management" }, "priceSpecification": { "@type": "PriceSpecification", "minPrice": 50, "priceCurrency": "AUD" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "PC health check" }, "price": 50, "priceCurrency": "AUD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Secure data wiping (per drive)" }, "price": 50, "priceCurrency": "AUD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal paste replacement (CPU)" }, "price": 30, "priceCurrency": "AUD" },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business IT equipment bulk buyback" }, "url": "https://www.jamesbuilds.tech/business-buyback.html" }
+      ]
+    }
   }
   </script>
 
@@ -128,20 +155,34 @@
           <div style="width:100%;max-width:380px;position:relative;">
             <!-- Decorative spec card -->
             <div style="background:var(--bg-surface);border:1px solid var(--border);border-radius:16px;padding:28px;position:relative;z-index:2;">
-              <!-- Filled from data/builds.json by main.js (first home-featured build that isn't sold) -->
+              <!-- Pre-filled by tools/generate.cs and refreshed by main.js (first home-featured build that isn't sold) -->
+              <!-- GENERATED:HERO-CARD -->
               <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
                 <div id="heroBuildDot" style="width:10px;height:10px;border-radius:50%;background:#3DAA6E;"></div>
                 <span id="heroBuildStatus" style="font-size:var(--text-xs);color:#3DAA6E;font-family:'JetBrains Mono',monospace;">Available</span>
               </div>
-              <div id="heroBuildName" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;margin-bottom:4px;">Custom Builds</div>
-              <div id="heroBuildTagline" style="font-size:var(--text-xs);color:var(--text-muted);margin-bottom:20px;">Built, benchmarked and ready to go</div>
-              <div id="heroBuildSpecs" style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;"></div>
+              <div id="heroBuildName" style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;margin-bottom:4px;">Ryzen 7 7800X3D + RTX 4080 Custom Sleeved Loop</div>
+              <div id="heroBuildTagline" style="font-size:var(--text-xs);color:var(--text-muted);margin-bottom:20px;">Black and white custom loop build. High-refresh 1440p maxed out and smooth 4K, cool and quiet under full load.</div>
+              <div id="heroBuildSpecs" style="display:flex;flex-direction:column;gap:10px;margin-bottom:24px;">
+        <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
+          <i class="bi bi-cpu" style="color:var(--accent);width:16px;"></i> AMD Ryzen 7 7800X3D (8c/16t)
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
+          <i class="bi bi-gpu-card" style="color:var(--accent);width:16px;"></i> Gigabyte AORUS RTX 4080 Xtreme WaterForce WB 16GB (factory waterblock)
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
+          <i class="bi bi-memory" style="color:var(--accent);width:16px;"></i> 32GB G.Skill Trident Z5 Neo DDR5 6400MHz CL32
+        </div>
+        <div style="display:flex;align-items:center;gap:10px;font-size:var(--text-sm);color:var(--text-muted);">
+          <i class="bi bi-device-ssd" style="color:var(--accent);width:16px;"></i> 2TB Samsung NVMe PCIe 4.0 (30 hours use)
+        </div></div>
               <div style="display:flex;align-items:center;justify-content:space-between;padding-top:16px;border-top:1px solid var(--border);">
-                <span id="heroBuildPrice" style="font-family:'JetBrains Mono',monospace;font-size:1.4rem;color:var(--text-primary);"></span>
-                <a id="heroBuildLink" href="builds.html" style="color:var(--accent);font-size:var(--text-sm);font-weight:600;display:flex;align-items:center;gap:6px;">
+                <span id="heroBuildPrice" style="font-family:'JetBrains Mono',monospace;font-size:1.4rem;color:var(--text-primary);">$3,800</span>
+                <a id="heroBuildLink" href="builds/x3d-4080-waterforce-7000x/" style="color:var(--accent);font-size:var(--text-sm);font-weight:600;display:flex;align-items:center;gap:6px;">
                   View <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
+              <!-- /GENERATED:HERO-CARD -->
             </div>
             <!-- Background glow -->
             <div style="position:absolute;top:20px;left:20px;right:-20px;bottom:-20px;background:var(--accent-dim);border-radius:16px;z-index:1;"></div>
@@ -188,7 +229,85 @@
 
       <div class="position-relative px-lg-4 animate-fade-up">
         <div id="homeFeaturedCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-          <div class="carousel-inner" id="homeFeaturedCarouselInner"></div>
+          <div class="carousel-inner" id="homeFeaturedCarouselInner"><!-- GENERATED:HOME-SLIDES -->
+      <div class="carousel-item active">
+        <div class="featured-carousel-slide">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="carousel-img-wrap">
+                <img src="images/builds/x3d-4080-waterforce-7000x/1.jpg" alt="Ryzen 7 7800X3D + RTX 4080 Custom Sleeved Loop" loading="lazy">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="carousel-content">
+                <div class="build-card-tags mb-3">
+                  <span class="tag tag-available">Available</span>
+                  <span class="tag tag-custom">custom</span><span class="tag tag-gaming">gaming</span><span class="tag tag-highend">highend</span>
+                </div>
+                <h3 style="font-size:var(--text-xl);margin-bottom:12px;">Ryzen 7 7800X3D + RTX 4080 Custom Sleeved Loop</h3>
+                <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Black and white custom loop build. High-refresh 1440p maxed out and smooth 4K, cool and quiet under full load.</p>
+                <ul class="build-specs mb-4"><li><i class="bi bi-cpu"></i> AMD Ryzen 7 7800X3D (8c/16t)</li><li><i class="bi bi-gpu-card"></i> Gigabyte AORUS RTX 4080 Xtreme WaterForce WB 16GB (factory waterblock)</li><li><i class="bi bi-memory"></i> 32GB G.Skill Trident Z5 Neo DDR5 6400MHz CL32</li><li><i class="bi bi-device-ssd"></i> 2TB Samsung NVMe PCIe 4.0 (30 hours use)</li></ul>
+                <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+                  <span class="build-price">$3,800</span>
+                  <a href="builds/x3d-4080-waterforce-7000x/" class="btn-view">View Build <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="featured-carousel-slide">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="carousel-img-wrap">
+                <img src="images/builds/hp-omen-265k-4080/1.jpg" alt="HP OMEN 45L — Core Ultra 7 265K + RTX 4080" loading="lazy">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="carousel-content">
+                <div class="build-card-tags mb-3">
+                  <span class="tag tag-available">Available</span>
+                  <span class="tag tag-gaming">gaming</span><span class="tag tag-highend">highend</span>
+                </div>
+                <h3 style="font-size:var(--text-xl);margin-bottom:12px;">HP OMEN 45L — Core Ultra 7 265K + RTX 4080</h3>
+                <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Upgraded HP OMEN 45L with a ROG Strix RTX 4080 and 32GB DDR5. 4K high to ultra and high-refresh 1440p, with the 360mm AIO in its own Cryo Chamber.</p>
+                <ul class="build-specs mb-4"><li><i class="bi bi-cpu"></i> Intel Core Ultra 7 265K (20 cores, up to 5.5GHz)</li><li><i class="bi bi-gpu-card"></i> ASUS ROG Strix RTX 4080 16GB</li><li><i class="bi bi-memory"></i> 32GB HyperX DDR5 6000MHz</li><li><i class="bi bi-device-ssd"></i> 1TB WD Black SN750 NVMe</li></ul>
+                <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+                  <span class="build-price">$3,000</span>
+                  <a href="builds/hp-omen-265k-4080/" class="btn-view">View Build <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <div class="featured-carousel-slide">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="carousel-img-wrap">
+                <img src="images/builds/alienware-r8-2070s/1.jpg" alt="Alienware Aurora R8 — RTX 2070 Super" loading="lazy">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="carousel-content">
+                <div class="build-card-tags mb-3">
+                  <span class="tag tag-available">Available</span>
+                  <span class="tag tag-gaming">gaming</span>
+                </div>
+                <h3 style="font-size:var(--text-xl);margin-bottom:12px;">Alienware Aurora R8 — RTX 2070 Super</h3>
+                <p style="color:var(--text-muted);font-size:var(--text-sm);margin-bottom:20px;line-height:1.6;">Freshly serviced Alienware Aurora R8 with an RTX 2070 Super. A capable 1080p gaming PC with fresh paste and a clean Windows 11 Pro install.</p>
+                <ul class="build-specs mb-4"><li><i class="bi bi-cpu"></i> Intel Core i5-8400 (6 cores)</li><li><i class="bi bi-gpu-card"></i> NVIDIA RTX 2070 Super 8GB (freshly repasted)</li><li><i class="bi bi-memory"></i> 16GB Corsair Vengeance DDR4 2666MHz</li><li><i class="bi bi-device-ssd"></i> 256GB Samsung NVMe (99% health)</li></ul>
+                <div style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+                  <span class="build-price">$650</span>
+                  <a href="builds/alienware-r8-2070s/" class="btn-view">View Build <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /GENERATED:HOME-SLIDES --></div>
           <button class="carousel-control-prev" type="button" data-bs-target="#homeFeaturedCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </button>

@@ -4,7 +4,8 @@
     "name": "Ryzen 7 7800X3D + RTX 4080 Custom Sleeved Loop",
     "tagline": "Black and white custom loop build. High-refresh 1440p maxed out and smooth 4K, cool and quiet under full load.",
     "status": "Available",
-    "price": 4000,
+    "price": 3800,
+    "originalPrice": 4000,
     "category": ["custom", "gaming", "highend"],
     "featured": true,
     "homeFeatured": true,
@@ -44,6 +45,139 @@
       "Black and white theme in a white Corsair 7000X",
       "X870 AORUS Elite WiFi7 with AM5 upgrade path",
       "3 months builder support on the build and loop"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "hp-omen-265k-4080",
+    "name": "HP OMEN 45L — Core Ultra 7 265K + RTX 4080",
+    "tagline": "Upgraded HP OMEN 45L with a ROG Strix RTX 4080 and 32GB DDR5. 4K high to ultra and high-refresh 1440p, with the 360mm AIO in its own Cryo Chamber.",
+    "status": "Available",
+    "price": 3000,
+    "category": ["gaming", "highend"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/hp-omen-265k-4080/1.jpg",
+    "gallery": [
+      "images/builds/hp-omen-265k-4080/1.jpg",
+      "images/builds/hp-omen-265k-4080/2.jpg",
+      "images/builds/hp-omen-265k-4080/3.jpg",
+      "images/builds/hp-omen-265k-4080/4.jpg",
+      "images/builds/hp-omen-265k-4080/5.jpg",
+      "images/builds/hp-omen-265k-4080/6.jpg",
+      "images/builds/hp-omen-265k-4080/7.jpg",
+      "images/builds/hp-omen-265k-4080/8.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core Ultra 7 265K (20 cores, up to 5.5GHz)",
+      "GPU": "ASUS ROG Strix RTX 4080 16GB",
+      "RAM": "32GB HyperX DDR5 6000MHz",
+      "Storage": "1TB WD Black SN750 NVMe",
+      "Motherboard": "HP Z890",
+      "Cooling": "360mm AIO with LCD pump, in the separate Cryo Chamber",
+      "PSU": "HP 1200W 80+ Gold",
+      "Case": "HP OMEN 45L with Cryo Chamber (2025 model)",
+      "Extras": "Full RGB via OMEN Light Studio"
+    },
+    "benchmarks": {},
+    "description": "Freshly cleaned, upgraded and tested HP OMEN 45L (2025 model, Z890). I've added a ROG Strix RTX 4080, 32GB of HyperX DDR5 6000 and a WD Black NVMe. It handles 4K gaming at high to ultra settings, and at 1440p it'll push high refresh rates in pretty much anything. The big feature of the 45L is the OMEN Cryo Chamber: the 360mm AIO sits in its own compartment at the top and pulls in fresh air instead of hot air from the GPU, so the 265K stays cool and quiet even when it's working hard. The LCD on the pump head shows through the tempered glass, and the RGB is controlled through OMEN Light Studio. The 1200W Gold PSU leaves plenty of headroom for a future GPU upgrade.",
+    "highlights": [
+      "ROG Strix RTX 4080 16GB upgrade",
+      "Core Ultra 7 265K, 20 cores",
+      "Cryo Chamber keeps the AIO on fresh air",
+      "32GB DDR5 6000MHz",
+      "1200W 80+ Gold PSU with upgrade headroom",
+      "Testing on pickup welcome"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "alienware-r8-2070s",
+    "name": "Alienware Aurora R8 — RTX 2070 Super",
+    "tagline": "Freshly serviced Alienware Aurora R8 with an RTX 2070 Super. A capable 1080p gaming PC with fresh paste and a clean Windows 11 Pro install.",
+    "status": "Available",
+    "price": 650,
+    "category": ["gaming"],
+    "featured": true,
+    "homeFeatured": true,
+    "featuredImage": "images/builds/alienware-r8-2070s/1.jpg",
+    "gallery": [
+      "images/builds/alienware-r8-2070s/1.jpg",
+      "images/builds/alienware-r8-2070s/2.jpg",
+      "images/builds/alienware-r8-2070s/3.jpg",
+      "images/builds/alienware-r8-2070s/4.jpg",
+      "images/builds/alienware-r8-2070s/5.jpg",
+      "images/builds/alienware-r8-2070s/6.jpg"
+    ],
+    "specs": {
+      "CPU": "Intel Core i5-8400 (6 cores)",
+      "GPU": "NVIDIA RTX 2070 Super 8GB (freshly repasted)",
+      "RAM": "16GB Corsair Vengeance DDR4 2666MHz",
+      "Storage": "256GB Samsung NVMe (99% health)",
+      "Cooling": "Alienware liquid CPU cooler",
+      "PSU": "Antec 850W 80+ Gold",
+      "Case": "Alienware Aurora R8 (RGB lighting)",
+      "OS": "Windows 11 Pro (fresh install, activated)",
+      "Extras": "Wi-Fi and Bluetooth built in"
+    },
+    "benchmarks": {},
+    "description": "Freshly serviced Alienware Aurora R8, fully tested and ready to game. The CPU and GPU have both been repasted, the whole system has been cleaned out, and it's running a freshly activated Windows 11 Pro install with the latest drivers. The RTX 2070 Super makes this a really capable 1080p machine: expect 150+ fps in Fortnite, Valorant and CS2, around 100+ fps in Apex and Warzone, and smooth 60+ fps in games like GTA V, Elden Ring and Cyberpunk with DLSS. It can also handle 1440p in lighter titles. Note: there are some cosmetic marks on the lower side panel where the finish has been damaged (shown in the last photo). They don't affect anything.",
+    "highlights": [
+      "RTX 2070 Super with DLSS and ray tracing",
+      "CPU and GPU freshly repasted",
+      "Fresh Windows 11 Pro install, activated",
+      "Wi-Fi and Bluetooth built in",
+      "Upgraded Antec 850W Gold PSU",
+      "Cosmetic marks on lower side panel (pictured)"
+    ],
+    "cta": {
+      "primary": "Enquire About This Build",
+      "secondary": "Reserve This Build"
+    }
+  },
+  {
+    "id": "5900x-3080-x570",
+    "name": "Ryzen 9 5900X + RTX 3080 Open-Frame Build",
+    "tagline": "Ryzen 9 5900X and a Gainward Phantom RTX 3080 in a brand new Thermaltake Core P3 open-frame case. Built to be shown off, on a desk or on the wall.",
+    "status": "Sold",
+    "price": 1400,
+    "category": ["gaming", "custom"],
+    "featured": false,
+    "homeFeatured": false,
+    "featuredImage": "images/builds/5900x-3080-x570/1.jpg",
+    "gallery": [
+      "images/builds/5900x-3080-x570/1.jpg",
+      "images/builds/5900x-3080-x570/2.jpg",
+      "images/builds/5900x-3080-x570/3.jpg",
+      "images/builds/5900x-3080-x570/4.jpg",
+      "images/builds/5900x-3080-x570/5.jpg",
+      "images/builds/5900x-3080-x570/6.jpg",
+      "images/builds/5900x-3080-x570/7.jpg"
+    ],
+    "specs": {
+      "CPU": "AMD Ryzen 9 5900X (12c/24t)",
+      "GPU": "Gainward RTX 3080 Phantom 10GB",
+      "RAM": "16GB (2x8GB) XPG RGB DDR4 3200MHz",
+      "Storage": "256GB Samsung NVMe",
+      "Motherboard": "MSI MAG X570 Tomahawk WiFi (WiFi + Bluetooth)",
+      "Cooling": "Deepcool 360mm AIO",
+      "PSU": "NZXT C850 850W 80+ Gold, fully modular",
+      "Case": "Thermaltake Core P3 (brand new), open frame and wall-mountable"
+    },
+    "benchmarks": {},
+    "description": "Freshly built and tested Ryzen 9 5900X + RTX 3080 gaming PC in a brand new Thermaltake Core P3 open-frame case. The open layout puts the full Gainward Phantom 3080 on display with the 360mm Deepcool AIO lighting up beside it, and it looks just as good on a desk as mounted on a wall. Excellent at 1440p, with high refresh rates in competitive titles and maxed settings in most AAA games. It handles 4K well with DLSS, and the 12-core 5900X makes it just as capable for streaming, editing or rendering. With a 360mm AIO and an open-air frame, thermals are excellent and it stays quiet under load.",
+    "highlights": [
+      "Ryzen 9 5900X, 12 cores / 24 threads",
+      "Gainward Phantom RTX 3080 10GB",
+      "Brand new Thermaltake Core P3, wall-mountable",
+      "360mm AIO + open-air frame for low temps",
+      "NZXT C850 Gold, fully modular"
     ],
     "cta": {
       "primary": "Enquire About This Build",
@@ -436,7 +570,8 @@
     }
   },
   {
-    "id": "evolv-3080 10gb oc",
+    "id": "evolv-3080",
+    "oldIds": ["evolv-3080 10gb oc"],
     "name": "Phanteks Evolv X — 3080 10gb",
     "tagline": "Freshly built. Fully tested. Ready for 1440p.",
     "status": "Sold",
@@ -487,31 +622,32 @@
     }
   },
   {
-    "id": "NZXT-hardline",
+    "id": "nzxt-hardline",
+    "oldIds": ["NZXT-hardline"],
     "name": "NZXT Hardline Loop",
     "tagline": "custom soft water cooling. One of a kind.",
     "status": "Sold",
     "price": 2000,
     "category": ["custom", "gaming"],
     "featured": true,
-    "featuredImage": "/images/builds/am4CustomLoopSold/1.jpg",
+    "featuredImage": "images/builds/am4CustomLoopSold/1.jpg",
     "gallery": [
-      "/images/builds/am4CustomLoopSold/2.jpg",
-      "/images/builds/am4CustomLoopSold/3.jpg",
-      "/images/builds/am4CustomLoopSold/4.jpg",
-      "/images/builds/am4CustomLoopSold/5.jpg",
-      "/images/builds/am4CustomLoopSold/6.jpg",
-      "/images/builds/am4CustomLoopSold/7.jpg",
-      "/images/builds/am4CustomLoopSold/8.jpg",
-      "/images/builds/am4CustomLoopSold/9.jpg",
-      "/images/builds/am4CustomLoopSold/10.jpg",
-      "/images/builds/am4CustomLoopSold/11.jpg",
-      "/images/builds/am4CustomLoopSold/12.jpg",
-      "/images/builds/am4CustomLoopSold/13.jpg",
-      "/images/builds/am4CustomLoopSold/14.jpg",
-      "/images/builds/am4CustomLoopSold/15.jpg",
-      "/images/builds/am4CustomLoopSold/16.jpg",
-      "/images/builds/am4CustomLoopSold/17.jpg"
+      "images/builds/am4CustomLoopSold/1.jpg",
+      "images/builds/am4CustomLoopSold/2.jpg",
+      "images/builds/am4CustomLoopSold/3.jpg",
+      "images/builds/am4CustomLoopSold/4.jpg",
+      "images/builds/am4CustomLoopSold/6.jpg",
+      "images/builds/am4CustomLoopSold/7.jpg",
+      "images/builds/am4CustomLoopSold/8.jpg",
+      "images/builds/am4CustomLoopSold/9.jpg",
+      "images/builds/am4CustomLoopSold/10.jpg",
+      "images/builds/am4CustomLoopSold/11.jpg",
+      "images/builds/am4CustomLoopSold/12.jpg",
+      "images/builds/am4CustomLoopSold/13.jpg",
+      "images/builds/am4CustomLoopSold/14.jpg",
+      "images/builds/am4CustomLoopSold/15.jpg",
+      "images/builds/am4CustomLoopSold/16.jpg",
+      "images/builds/am4CustomLoopSold/17.jpg"
     ],
     "specs": {
       "CPU": "am4 ryzen 7 3700x (8c/16t)",
@@ -581,7 +717,8 @@
     }
   },
    {
-    "id": "workstation threadripper",
+    "id": "threadripper-workstation",
+    "oldIds": ["workstation threadripper"],
     "name": "Threadripper Workstation",
     "tagline": "128GB RAM. 32 cores. No compromises.",
     "status": "Sold",

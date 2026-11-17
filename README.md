@@ -21,36 +21,23 @@ kept on my personal pc so it cannot be used by anyone else lol
 some sort of protection / backup version when adding in case somthing goes wrong 
 
 ---
-## Adding new builds
+## Adding or updating builds
 
-Open `builds.html` and duplicate one of the `<div class="col-lg-4 col-md-6 build-col">` blocks.
+1. Edit `data/builds.json`. Put photos in `images/builds/<id>/` and list them in `gallery`.
+   - `id` becomes the web address (`/builds/<id>/`), so use lowercase letters, numbers and dashes only.
+   - If you rename an id, add the old one to `"oldIds": ["old-id"]` so shared links keep working.
+   - `status`: `Available`, `In-Progress`, `Reserved` or `Sold`. `homeFeatured: true` puts it on the home page.
+2. Run the generator from this folder:
+   ```
+   dotnet run tools/generate.cs
+   ```
+   It writes the build pages, the cards on `builds.html` and `index.html`, `sitemap.xml` and `llms.txt`,
+   so search engines and AI crawlers can read everything without JavaScript.
+3. Commit and push. If you forget step 2, the "Check generated pages" action on GitHub goes red.
 
-Update:
-- `data-category` on the inner card (options: `gaming`, `workstation`, `custom`, `available`, `sale`, `sold`)
-- Tags (`.tag-gaming`, `.tag-available`, etc.)
-- Title, specs, and price
-- Link href (Facebook Marketplace listing, or `contact.html`)
+Don't hand-edit anything between `<!-- GENERATED:... -->` markers or inside `builds/`. It gets overwritten.
 
----
-
-## Adding photos
-
-Drop WebP images (max 200KB each) into `assets/img/builds/`.
-
-Replace the placeholder div:
-```html
-<div class="build-card-image-placeholder" style="height:220px;">
-  <i class="bi bi-pc-display-horizontal" ...></i>
-</div>
-```
-With:
-```html
-<div class="build-card-image">
-  <img src="assets/img/builds/your-photo.webp" alt="Build name" loading="lazy">
-</div>
-```
-
-Use https://squoosh.app to compress images before adding.
+Use https://squoosh.app to compress photos before adding.
 
 ---
 
